@@ -1,0 +1,66 @@
+.Navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  height: 80px;
+  z-index: 9999;
+}
+.NavbarNavigation {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+}
+.NavbarNavigation .spacer {
+  flex: 1;
+}
+.NavbarNavigation .NavbarNavigationsItems ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.NavbarNavigation .NavbarNavigationsItems ul li {
+  padding: 0 2rem;
+}
+.NavbarNavigation .NavbarNavigationsItems ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.NavbarNavigation .NavbarNavigationsItems ul li a:hover,
+.NavbarNavigation .NavbarNavigationsItems ul li a:active {
+  color: #fa923f;
+}
+.NavbarNavigation .NavbarLogo {
+  margin-left: 3rem;
+}
+.NavbarNavigation .NavbarLogo a {
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+@media (max-width: 768px) {
+  .NavbarNavigationsItems {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .NavbarToggleButton {
+    display: none;
+  }
+  .Navbar .NavbarLogo {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .NavbarNavigation .NavbarLogo a {
+    font-size: 1.5rem;
+    background-color: white;
+  }
+}

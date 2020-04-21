@@ -1,0 +1,30 @@
+.icon-tab__img img {
+  width: 60px;
+  height: 60px;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .icon-tab__img img {
+    width: 30px;
+    height: 30px;
+    color: black;
+  }
+}
+
+.icon-tab__img p {
+  text-align: center;
+  font-size: 12px;
+  text-transform: lowercase;
+}
+
+.icon-tab__img {
+  padding: 40px;
+}
+
+@media (max-width: 768px) {
+  .icon-tab__img {
+    padding: 12px;
+    align-items: center;
+  }
+}

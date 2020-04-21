@@ -1,0 +1,25 @@
+.section-services__header {
+  text-align: center;
+  font-size: 5em;
+}
+
+@media (max-width: 768px) {
+  .section-services__header {
+    font-size: 2.5em;
+  }
+}
+
+#section-services__card {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+@media (max-width: 768px) {
+  #section-services__card {
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}

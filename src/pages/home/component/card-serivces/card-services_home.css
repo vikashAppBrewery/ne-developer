@@ -1,0 +1,44 @@
+.img-services_home img {
+  width: 200px;
+  height: 200px;
+  top: 0;
+  position: relative;
+  z-index: 10;
+  transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .img-services_home img {
+    width: 150px;
+    height: 150px;
+    top: 0;
+    position: relative;
+    z-index: 10;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+.img-services_home img:hover {
+  transform: scale(1.2);
+}
+
+.title-services__details h4 {
+  display: block;
+  font-size: 1.8em;
+  margin-top: 20px;
+  color: #38373b;
+  text-align: center;
+}
+
+.title-services__details h4:hover {
+  color: #e0b8ff;
+}
+
+.animate__1 {
+  text-decoration: none;
+  padding-right: 40px;
+}
+
+.animate__1:hover {
+  color: #e0b8ff;
+}
