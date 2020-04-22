@@ -6,7 +6,7 @@ import AboutSectionBg from "../../../assets/about-team.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-AOS.init();
+AOS.init({ disable: "mobile" });
 
 const SectionAbout = () => {
   return (
