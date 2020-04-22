@@ -1,4 +1,5 @@
 import React from "react";
+import "./home.css";
 import SectionHeader from "./sections/section-header";
 import Header from "./component/nav-bar/nav-bar";
 import SectionServices from "./sections/section-services";
@@ -10,7 +11,7 @@ import FooterNavigation from "./component/footer/footer";
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div className="home_container">
         <Header />
         <SectionHeader />
         <SectionServices />
