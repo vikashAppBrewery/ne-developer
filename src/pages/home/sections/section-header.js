@@ -5,11 +5,8 @@ import Grid from "@material-ui/core/Grid";
 import Hero from "../../../assets/hero-image.svg";
 import BtnAnimated from "../component/button/button";
 import Box from "@material-ui/core/Box";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Typewriter from "typewriter-effect";
 
-AOS.init();
+import Typewriter from "typewriter-effect";
 
 class SectionHeader extends React.Component {
   render() {
@@ -87,7 +84,8 @@ class SectionHeader extends React.Component {
               <div
                 className="home-hero__content"
                 data-aos="fade-right"
-                data-aos-duration="2000"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
               >
                 <h1>
                   We &nbsp;
@@ -116,7 +114,8 @@ class SectionHeader extends React.Component {
               <div
                 className="grid-header__container"
                 data-aos="fade-left"
-                data-aos-duration="2000"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
               >
                 <img src={Hero} alt="img" className="hero-image__header" />
               </div>

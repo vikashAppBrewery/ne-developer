@@ -31,7 +31,7 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .title-services__details h4 {
     display: block;
     font-size: 1.4em;

@@ -12,12 +12,32 @@
   margin-right: auto;
 }
 
+@media screen and (max-width: 768px) {
+  .Card-image__dev img {
+    height: 60px;
+    width: 60px;
+  }
+}
+
 .Card-content__dev h4 {
   text-align: center;
   font-size: 3em;
+}
+@media screen and (max-width: 768px) {
+  .Card-content__dev h4 {
+    text-align: center;
+    font-size: 2em;
+  }
 }
 
 .Card-content__dev p {
   text-align: center;
   font-size: 1.5em;
+}
+
+@media screen and (max-width: 768px) {
+  .Card-content__dev p {
+    text-align: center;
+    font-size: 1.2em;
+  }
 }
