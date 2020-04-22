@@ -1,0 +1,16 @@
+#review-container {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.section-review__header h1 {
+  text-align: center;
+  font-size: 5em;
+  font-weight: 400;
+}
+
+.section-review__header p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: normal;
+}
