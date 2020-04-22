@@ -30,6 +30,16 @@
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .title-services__details h4 {
+    display: block;
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: #38373b;
+    text-align: center;
+  }
+}
+
 .title-services__details h4:hover {
   color: #e0b8ff;
 }

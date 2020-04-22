@@ -23,7 +23,7 @@
 }
 
 .home-herotext__container {
-  padding-top: 50px;
+  padding-top: 0px;
   padding-left: 100px;
 }
 @media (max-width: 768px) {
@@ -43,15 +43,30 @@
   position: relative;
   letter-spacing: 1px;
 }
+@media (max-width: 900px) {
+  .home-hero__content h1 {
+    font-size: 5em;
+    position: relative;
+    letter-spacing: 1px;
+  }
+}
 
-.home-hero__content span {
+.extra-text__header {
   padding-top: 100px;
   font-size: 18px;
   line-height: 35px;
   color: #252b33;
   letter-spacing: 1px;
 }
-
+@media screen and (max-width: 900px) {
+  .extra-text__header {
+    padding-top: 100px;
+    font-size: 14px;
+    line-height: 35px;
+    color: #252b33;
+    letter-spacing: 1px;
+  }
+}
 .grid-header__container {
   padding-top: 50px;
 }

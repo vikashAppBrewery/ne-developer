@@ -12,6 +12,7 @@ body {
   color: #212121;
   height: 100%;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 *::after ::before {
@@ -22,10 +23,16 @@ body.no-scroll {
   height: 100%;
   width: 100%;
   overflow: hidden;
+  margin: 0;
 }
 
 .clearfix:after {
   content: "";
   clear: both;
   display: block;
+}
+
+* ::before ::after {
+  padding: 0px;
+  margin: 0px;
 }

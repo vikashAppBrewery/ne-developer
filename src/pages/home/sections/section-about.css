@@ -14,6 +14,14 @@
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .about-section__bg {
+    height: 500px;
+    width: 100%;
+    position: relative;
+  }
+}
+
 .About-hero__content {
   text-align: center;
 }
@@ -38,6 +46,16 @@
   line-height: 35px;
   color: #252b33;
   letter-spacing: 1px;
+}
+
+@media screen and (max-width: 900px) {
+  .About-hero__content span {
+    padding-top: 0px;
+    font-size: 14px;
+    line-height: 35px;
+    color: #252b33;
+    letter-spacing: 1px;
+  }
 }
 
 .About-hero__content h4 {
