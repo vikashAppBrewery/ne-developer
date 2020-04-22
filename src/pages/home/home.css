@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
   .home_container {
-    max-width: 360px;
+    width: auto;
   }
 }
