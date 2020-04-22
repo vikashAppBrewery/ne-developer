@@ -19,7 +19,7 @@ pipeline {
       steps {
           withKubeConfig([credentialsId: 'kubeconfig', serverUrl: 'https://api.kube.rukjaana.com']) {
           sh 'kubectl get all'
-          sh 'kubectl rollout restart deployment/ne-clothgram-production-frontend -n production'
+          sh 'kubectl rollout restart deployment/ne-clothgram-frontend -n production'
         }
       }
   }
