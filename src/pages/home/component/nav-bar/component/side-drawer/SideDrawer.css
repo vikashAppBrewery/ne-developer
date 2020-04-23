@@ -5,7 +5,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 70%;
+  width: 60%;
   max-width: 400px;
   z-index: 200;
   transform: translateX(-100%);
@@ -17,17 +17,21 @@
 .SideDrawer ul {
   list-style: none;
   height: 100%;
-  justify-content: center;
+  justify-content: top;
+  padding-top: 100px;
+
   display: flex;
   flex-direction: column;
 }
 .SideDrawer ul li {
-  margin: 0.5rem 0;
+  margin: 2.5rem 0;
 }
 .SideDrawer ul li a {
   color: #521751;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 2.2rem;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
 }
 .SideDrawer ul li a:hover,
 .SideDrawer ul li a:active {
