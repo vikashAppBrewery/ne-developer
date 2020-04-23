@@ -44,6 +44,12 @@
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 768px) {
+  .project-card-img img {
+    max-width: 78%;
+  }
+}
+
 .project-card-img {
   width: 500px;
   height: 500px;

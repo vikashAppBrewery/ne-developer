@@ -13,17 +13,18 @@ import AnimatedBtn from "../component/button/button";
 const SectionDevelopment = (props) => {
   return (
     <section className="section-development">
-      <Container maxWidth="lg" id="container-development" justify="center">
-        <h1 data-aos="fade-up" data-aos-duration="3000">
-          We Simplify Software Development Process
-        </h1>
-        <Grid
-          container
-          spacing={2}
-          data-aos="fade-down"
-          data-aos-duration="3000"
-        >
-          <Grid item xs>
+      <h1 data-aos="fade-up" data-aos-duration="2000">
+        We Simplify Software Development Process
+      </h1>
+      <Container
+        maxWidth="lg"
+        id="container-development"
+        justify="center"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
+        <Grid container spacing={2}>
+          <Grid item xs={12} lg={3} sm={6}>
             <CardDeveloperComponent
               imgSrc={Process}
               header="Discover"
@@ -31,21 +32,21 @@ const SectionDevelopment = (props) => {
             />
           </Grid>
 
-          <Grid item xs>
+          <Grid item xs={12} lg={3} sm={6}>
             <CardDeveloperComponent
               imgSrc={Design}
               header="Design"
               title="Our design approach is to simplify. We embrace the joy in creating something unique that is easy for end users."
             />
           </Grid>
-          <Grid item xs>
+          <Grid item xs={12} lg={3} sm={6}>
             <CardDeveloperComponent
               imgSrc={Build}
               header="Build"
               title="Using modern technologies, we build with efficiency and skill, creating flexible and scalable business-driven solutions."
             />
           </Grid>
-          <Grid item xs>
+          <Grid item xs={12} lg={3} sm={6}>
             <CardDeveloperComponent
               imgSrc={Deploy}
               header="Deploy"

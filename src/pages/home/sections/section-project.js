@@ -11,7 +11,7 @@ const ProjectSection = () => {
       <h1
         className="project-section-title"
         data-aos="fade-up"
-        data-aos-duration="3000"
+        data-aos-duration="2000"
       >
         Our Works
       </h1>

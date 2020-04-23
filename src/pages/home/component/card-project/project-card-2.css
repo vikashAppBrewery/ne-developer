@@ -38,7 +38,11 @@
   max-height: 100%;
   display: block;
 }
-
+@media (max-width: 768px) {
+  .project-card-img-2 img {
+    max-width: 78%;
+  }
+}
 .project-card-img-2 {
   width: 500px;
   height: 500px;
@@ -46,7 +50,7 @@
 
 @media (max-width: 768px) {
   .project-card-img-2 {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 320px;
   }
 }

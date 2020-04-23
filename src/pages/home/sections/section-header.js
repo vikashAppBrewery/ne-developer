@@ -72,19 +72,20 @@ class SectionHeader extends React.Component {
 
     return (
       <section className="home-hero">
-        <Container maxWidth="xl" id="container-header" justify="center">
+        <Container xs maxWidth="xl" id="container-header" justify="center">
           <Grid container spacing={0}>
             <Grid
               item
               xs={12}
               sm={12}
-              md={6}
+              md={12}
+              lg={6}
               className="home-herotext__container"
             >
               <div
                 className="home-hero__content"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
               >
                 <h1>
                   We &nbsp;
@@ -109,12 +110,11 @@ class SectionHeader extends React.Component {
                 </Box>
               </div>
             </Grid>
-            <Grid item xs={12} sm={12} md={6}>
+            <Grid item xs={12} sm={12} md={12} lg={6}>
               <div
                 className="grid-header__container"
-                data-aos="fade-left"
-                data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos="fade-up"
+                data-aos-duration="2000"
               >
                 <img src={Hero} alt="img" className="hero-image__header" />
               </div>

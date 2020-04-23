@@ -1,5 +1,13 @@
-#container-development h1 {
+.section-development h1 {
   text-align: center;
   font-size: 5em;
   font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .section-development h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+  }
 }

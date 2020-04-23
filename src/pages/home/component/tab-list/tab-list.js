@@ -65,7 +65,7 @@ export default function ScrollableTabsButtonAuto() {
   };
 
   return (
-    <div className={classes.root} data-aos="fade-down" data-aos-duration="1000">
+    <div className={classes.root} data-aos="fade-up" data-aos-duration="2000">
       <Tabs
         value={value}
         onChange={handleChange}

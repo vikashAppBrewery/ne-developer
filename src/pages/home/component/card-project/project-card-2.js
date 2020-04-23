@@ -11,7 +11,7 @@ const ProjectCard2 = () => {
       elevation={2}
       className="project-card-2"
       data-aos="fade-up"
-      data-aos-duration="3000"
+      data-aos-duration="2000"
     >
       <Grid container>
         <Grid item sm={5} xs={12}>

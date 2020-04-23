@@ -7,7 +7,7 @@ const SectionTablistTech = () => {
   return (
     <div className="section-tablist">
       <Container maxWidth="lg" id="tablist-container__section" justify="center">
-        <h1 data-aos="fade-up" data-aos-duration="3000">
+        <h1 data-aos="fade-up" data-aos-duration="2000">
           Technologies we work with
         </h1>
         <CenteredTabs />
