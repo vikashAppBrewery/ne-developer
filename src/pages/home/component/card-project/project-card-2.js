@@ -10,9 +10,8 @@ const ProjectCard2 = () => {
       className="MuiCard-root-1"
       elevation={2}
       className="project-card-2"
-      data-aos="fade-right"
-      data-aos-offset="300"
-      data-aos-easing="ease-in-sine"
+      data-aos="fade-up"
+      data-aos-duration="3000"
     >
       <Grid container>
         <Grid item sm={5} xs={12}>

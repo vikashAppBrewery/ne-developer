@@ -83,9 +83,8 @@ class SectionHeader extends React.Component {
             >
               <div
                 className="home-hero__content"
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
+                data-aos="fade-up"
+                data-aos-duration="3000"
               >
                 <h1>
                   We &nbsp;
@@ -114,8 +113,8 @@ class SectionHeader extends React.Component {
               <div
                 className="grid-header__container"
                 data-aos="fade-left"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
+                data-aos="fade-down"
+                data-aos-duration="3000"
               >
                 <img src={Hero} alt="img" className="hero-image__header" />
               </div>

@@ -19,9 +19,8 @@ const SectionAbout = () => {
             xs={12}
             sm={12}
             md={6}
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+            data-aos="fade-down"
+            data-aos-duration="3000"
           >
             <img
               src={AboutSectionBg}
@@ -35,9 +34,8 @@ const SectionAbout = () => {
             sm={12}
             md={6}
             className="home-herotext__container"
-            data-aos="fade-left"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+            data-aos="fade-up"
+            data-aos-duration="3000"
           >
             <div className="About-hero__content">
               <h1>About us</h1>

@@ -14,14 +14,14 @@ const SectionDevelopment = (props) => {
   return (
     <section className="section-development">
       <Container maxWidth="lg" id="container-development" justify="center">
-        <h1 data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <h1 data-aos="fade-up" data-aos-duration="3000">
           We Simplify Software Development Process
         </h1>
         <Grid
           container
           spacing={2}
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-center"
+          data-aos="fade-down"
+          data-aos-duration="3000"
         >
           <Grid item xs>
             <CardDeveloperComponent

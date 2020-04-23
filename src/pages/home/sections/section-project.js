@@ -10,9 +10,8 @@ const ProjectSection = () => {
     <Container maxWidth="lg">
       <h1
         className="project-section-title"
-        data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine"
+        data-aos="fade-up"
+        data-aos-duration="3000"
       >
         Our Works
       </h1>

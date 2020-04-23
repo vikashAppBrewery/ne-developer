@@ -23,7 +23,7 @@ class SectionServices extends React.Component {
           <h1
             className="section-services__header"
             data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="3000"
           >
             We specialise in{" "}
           </h1>
@@ -31,9 +31,8 @@ class SectionServices extends React.Component {
             container
             direction="row"
             justify="center"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+            data-aos="fade-down"
+            data-aos-duration="3000"
           >
             <CardServices imgSrc={AppDev} titleservices="App Development" />
             <CardServices imgSrc={WebDev} titleservices="Web Development" />
@@ -43,9 +42,8 @@ class SectionServices extends React.Component {
             container
             justify="center"
             direction="row-reverse"
-            data-aos="fade-left"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+            data-aos="fade-down"
+            data-aos-duration="3000"
           >
             <CardServices imgSrc={PrintEvent} titleservices="Print & Event" />
             <CardServices
