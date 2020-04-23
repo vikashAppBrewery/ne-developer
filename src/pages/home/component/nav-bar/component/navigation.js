@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import DrawerToggleButton from "./side-drawer/DrawerToggleButton";
 import "./navigation.css";
+import { Link } from "react-router-dom";
 class Navbar extends Component {
   render() {
     return (
@@ -28,7 +29,7 @@ class Navbar extends Component {
                 <a href="/">About</a>
               </li>
               <li>
-                <a href="/">Contact</a>
+                <Link to="/contact-us"> Contact-us </Link>
               </li>
             </ul>
           </div>

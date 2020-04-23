@@ -3,6 +3,7 @@ import "./nav-bar.css";
 import Navbar from "./component/navigation";
 import SideDrawer from "./component/side-drawer/SideDrawer";
 import BackDrop from "./component/BackDrop";
+import { Link } from "react-router-dom";
 
 class Header extends Component {
   constructor(props) {
