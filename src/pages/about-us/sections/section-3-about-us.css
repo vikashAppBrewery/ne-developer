@@ -1,0 +1,38 @@
+#section-about-us-meet__team {
+  padding-top: 7em;
+}
+
+@media screen and (max-width: 768px) {
+  #section-about-us-meet__team {
+    padding-top: 1em;
+  }
+}
+
+#section-about-us-meet__team h1 {
+  font-size: 5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.section-paragraph-team {
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 5em;
+  font-weight: 400;
+}
+
+.section-about__us-image_icon {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.section-about__us-image_icon img {
+  height: 200px;
+  width: 200px;
+}
+
+.section-about__us-image_icon p {
+  font-size: 14px;
+  text-align: center;
+}

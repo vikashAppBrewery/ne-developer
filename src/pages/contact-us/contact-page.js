@@ -16,7 +16,14 @@ const ContactPage = () => {
       <div className="contact-container__img"></div>
       <Container maxWidth="lg">
         <Grid container className="contact-container">
-          <Grid item xs={12} md={6} className="contact-us-content">
+          <Grid
+            item
+            xs={12}
+            md={6}
+            className="contact-us-content"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             <h1>Address</h1>
             <h2>
               <img src={Map} />
@@ -49,7 +56,14 @@ const ContactPage = () => {
               +91-8610043765
             </p>
           </Grid>
-          <Grid item xs={12} md={6} className="contact-us-form">
+          <Grid
+            item
+            xs={12}
+            md={6}
+            className="contact-us-form"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             <h1>Contact us</h1>
             <p>
               We're ready to answer your questions and jump start your project.
