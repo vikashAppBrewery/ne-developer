@@ -20,7 +20,7 @@ class Navbar extends Component {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="/">Products</a>
+                <a href="/">Services</a>
               </li>
               <li>
                 <a href="/">Gallery</a>

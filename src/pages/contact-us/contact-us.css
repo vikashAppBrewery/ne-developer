@@ -1,9 +1,101 @@
 .contact-container {
   padding-top: 100px;
   padding-bottom: 100px;
-  display: flex;
+
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #ffd3b6;
+}
+
+.contact-container__img {
+  background: url(../../assets/kanchenjunga.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+@media (max-width: 1280px) {
+  .contact-container__img {
+    background: url(../../assets/kanchenjunga-720p.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contact-container__img {
+    background: url(../../assets/kanchenjunga-900.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container__img {
+    background: url(../../assets/kanchenjunga-600.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+}
+
+.contact-us-content {
+  text-align: center;
+}
+
+.contact-us-content p {
+  text-align: start;
+  font-weight: 500;
+  font-size: 1.4em;
+  padding-left: 1px;
+}
+@media screen and (max-width: 768px) {
+  .contact-us-content p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-left: 1px;
+  }
+}
+.contact-us-content h1 {
+  text-align: start;
+  font-weight: 600;
+  font-size: 3em;
+  color: purple;
+}
+@media (max-width: 768px) {
+  .contact-us-content h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: purple;
+  }
+}
+
+.contact-us-form h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 3em;
+}
+
+.contact-us-form p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.6em;
 }

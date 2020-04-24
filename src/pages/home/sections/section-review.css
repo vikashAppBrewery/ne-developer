@@ -12,7 +12,7 @@
 
 .section-review__header h1 {
   text-align: center;
-  font-size: 7em;
+  font-size: 5em;
   font-weight: 500;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -21,7 +21,7 @@
 @media screen and (max-width: 769px) {
   .section-review__header h1 {
     text-align: center;
-    font-size: 5em;
+    font-size: 3em;
     font-weight: 500;
     padding-top: 15px;
     padding-bottom: 15px;

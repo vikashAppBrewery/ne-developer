@@ -9,7 +9,15 @@ const SectionAboutUs1 = () => {
   return (
     <Container max-width="lg" id="section-about__us">
       <Grid container spacing={1}>
-        <Grid item lg={6} xs={12} sm={12} className="section-about__header">
+        <Grid
+          item
+          lg={6}
+          xs={12}
+          sm={12}
+          className="section-about__header"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <h1>Hi, we’re ne developers</h1>
           <p>
             Established in Gangtok sikkim, Ne developers has been designing &
@@ -24,7 +32,15 @@ const SectionAboutUs1 = () => {
             <AnimatedBtn title="Request A Qoute" />
           </Box>
         </Grid>
-        <Grid item lg={6} xs={12} sm={12} className="section-about__image">
+        <Grid
+          item
+          lg={6}
+          xs={12}
+          sm={12}
+          className="section-about__image"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <img src={ImageHeader} alt="section-img" />
         </Grid>
       </Grid>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./form.css";
-
+import Box from "@material-ui/core/Box";
 export default class MyForm extends React.Component {
   constructor(props) {
     super(props);
@@ -14,7 +14,6 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     return (
       <div className="form-contact">
-        {" "}
         <form
           class="form"
           onSubmit={this.submitForm}
@@ -23,22 +22,31 @@ export default class MyForm extends React.Component {
         >
           <div class="form-control">
             <label>Name</label>
-            <input type="text" name="name" />
+            <input type="text" name="name" placeholder="Name" />
           </div>
           <div class="form-control">
             <label>Email</label>
-            <input type="email" name="email" />
+            <input type="email" name="email" placeholder="Email" />
           </div>
           <div class="form-control">
-            <label>Mobile</label>
-            <input type="number" name="number" />
+            <label>Phone</label>
+            <input type="number" name="number" placeholder="Phone" />
           </div>
           <div class="form-control">
             <label>Message:</label>
-            <input type="text" name="message" />
+            <textarea type="text" name="message" placeholder="Your message" />
           </div>
           <div class="form-control">
-            {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+            {status === "SUCCESS" ? (
+              <p>
+                Thank you for your message <br /> We will get back to you
+                shortly
+              </p>
+            ) : (
+              <Box justify="center">
+                <button>Submit</button>
+              </Box>
+            )}
             {status === "ERROR" && (
               <p>
                 oops you didnt fill the form properly make sure all field are

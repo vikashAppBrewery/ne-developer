@@ -1,8 +1,5 @@
 .form-contact {
-  background-color: #fcf8f3;
   border-radius: 5px;
-
-  width: 400px;
 }
 
 .form-contact h2 {
@@ -16,17 +13,17 @@
 }
 
 .form-control {
-  color: #777;
   display: block;
   margin-bottom: 20px;
 }
 
 .form-control label {
-  font-size: 1.5em;
+  font-size: 2em;
+  color: black;
 }
 
 .form-control input {
-  border: 2px solid white;
+  border: 1px solid grey;
   border-radius: 4px;
   display: block;
   width: 100%;
@@ -35,7 +32,7 @@
 }
 
 .form-control textarea {
-  border: 2px solid white;
+  border: 1px solid grey;
   border-radius: 4px;
   display: block;
   width: 100%;
@@ -56,14 +53,15 @@
   border: 2px solid blue;
   border-radius: 4px;
   color: #fff;
-  display: block;
   font-size: 12px;
   padding: 10px;
   margin-top: 20px;
-  width: 100%;
+
+  width: 20%;
 }
 
-.form-control small {
-  color: red;
+.form-control p {
+  color: green;
   font-size: 12px;
+  text-align: center;
 }
