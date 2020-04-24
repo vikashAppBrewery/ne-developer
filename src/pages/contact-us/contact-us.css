@@ -7,6 +7,17 @@
   min-height: 100vh;
 }
 
+@media screen and (max-width: 768) {
+  .contact-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+}
+
 .contact-container__img {
   background: url(../../assets/kanchenjunga.png);
   background-size: auto;
@@ -40,7 +51,7 @@
     background: url(../../assets/kanchenjunga-600.png);
     background-size: auto;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 60vh;
     width: 100%;
   }
 }
@@ -65,12 +76,31 @@
   font-size: 1.4em;
   padding-left: 1px;
 }
+
+.contact-us-content h2 {
+  text-align: start;
+  font-weight: 500;
+  font-size: 1.8em;
+  padding-left: 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-us-content h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.6em;
+    padding-left: 1px;
+    color: rgb(151, 148, 148);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .contact-us-content p {
     text-align: center;
     font-weight: 500;
     font-size: 1.2em;
     padding-left: 1px;
+    color: rgb(151, 148, 148);
   }
 }
 .contact-us-content h1 {
@@ -79,6 +109,19 @@
   font-size: 3em;
   color: purple;
 }
+
+.contact-us-content h2 img {
+  width: 14px;
+  height: 14px;
+  padding-right: 2px;
+}
+
+.contact-us-content p img {
+  width: 14px;
+  height: 14px;
+  padding-right: 2px;
+}
+
 @media (max-width: 768px) {
   .contact-us-content h1 {
     text-align: center;
