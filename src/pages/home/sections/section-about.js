@@ -14,14 +14,7 @@ const SectionAbout = () => {
     <section className="about-us__home">
       <Container maxWidth="xl" id="container-header" justify="center">
         <Grid container spacing={0}>
-          <Grid
-            item
-            xs={12}
-            sm={12}
-            md={6}
-            data-aos="fade-up"
-            data-aos-duration="2000"
-          >
+          <Grid item xs={12} lg={7} data-aos="fade-up" data-aos-duration="2000">
             <img
               src={AboutSectionBg}
               alt="about"
@@ -31,8 +24,7 @@ const SectionAbout = () => {
           <Grid
             item
             xs={12}
-            sm={12}
-            md={6}
+            lg={5}
             className="home-herotext__container"
             data-aos="fade-up"
             data-aos-duration="2000"

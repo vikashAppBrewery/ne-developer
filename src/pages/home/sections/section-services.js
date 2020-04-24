@@ -35,21 +35,18 @@ class SectionServices extends React.Component {
             data-aos-duration="2000"
           >
             <CardServices imgSrc={AppDev} titleservices="App Development" />
+
             <CardServices imgSrc={WebDev} titleservices="Web Development" />
+
             <CardServices imgSrc={UiDev} titleservices="UI/UX Development" />
-          </Grid>
-          <Grid
-            container
-            justify="center"
-            direction="row-reverse"
-            data-aos="fade-up"
-            data-aos-duration="2000"
-          >
+
             <CardServices imgSrc={PrintEvent} titleservices="Print & Event" />
+
             <CardServices
               imgSrc={StarDev}
               titleservices="Startup Development"
             />
+
             <CardServices imgSrc={BranDev} titleservices="Brand & Identity" />
           </Grid>
         </Container>
