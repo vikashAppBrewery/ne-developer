@@ -5,7 +5,7 @@ import "./card-dev.css";
 
 const CardDeveloperComponent = (props) => {
   return (
-    <Card elevation={3}>
+    <Card elevation={1} id="card-develop__card">
       <CardContent>
         <div className="Card-image__dev">
           <img src={props.imgSrc} alt="process" />

@@ -26,7 +26,7 @@ class Navbar extends Component {
                 <a href="/">Gallery</a>
               </li>
               <li>
-                <a href="/">About</a>
+                <Link to="/about-us">About-us</Link>
               </li>
               <li>
                 <Link to="/contact-us"> Contact-us </Link>

@@ -10,7 +10,11 @@ import Marker from "../../../../assets/map.svg";
 
 const FooterNavigation = () => {
   return (
-    <footer className="footer-distributed">
+    <footer
+      className="footer-distributed"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <div className="footer-left">
         <h3>
           Company<span>logo</span>

@@ -9,7 +9,11 @@ import Sikkim from "../../../assets/sikkim.png";
 const SectionReview = () => {
   return (
     <Container id="review-container" max-width={"lg"}>
-      <div className="section-review__header">
+      <div
+        className="section-review__header"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <h1>What customer say about us</h1>
         <p>
           We're an experienced team who you will love working with. <br /> But
@@ -17,7 +21,13 @@ const SectionReview = () => {
           say.
         </p>
       </div>
-      <Grid container spacing={4} justify="center">
+      <Grid
+        container
+        spacing={4}
+        justify="center"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <Grid item lg={3} xs={12}>
           <ReviewCard
             AvatarSrc={Uruvelaa}
