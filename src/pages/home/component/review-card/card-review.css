@@ -1,0 +1,44 @@
+.MuiCardHeader-content span {
+  font-size: 1.5em;
+}
+
+.MuiAvatar-root {
+  width: 80px;
+  height: 800px;
+}
+
+@media (max-width: 768px) {
+  #review-card__card {
+    padding: 30px;
+  }
+}
+
+.avatar-icon__review {
+  height: 50px;
+  width: 50px;
+  align-self: center;
+  color: #efefef;
+}
+
+.avatar-circle {
+  width: 50px;
+  height: 50px;
+}
+
+.avatar-icon__container {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.card-content_main {
+  text-align: center;
+  font-size: 1.5em;
+  color: #4c4c4c;
+}
+
+#review-card__card:hover {
+  box-shadow: -4px -4px 15px rgba(255, 255, 255, 0.1),
+    4px 4px 15px rgba(0, 0, 0, 0.1);
+}

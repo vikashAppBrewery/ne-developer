@@ -21,6 +21,7 @@
     "react-measure": "^2.3.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
+    "styled-components": "^5.1.0",
     "typewriter-effect": "^2.13.0"
   },
   "scripts": {

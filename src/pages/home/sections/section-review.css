@@ -1,16 +1,45 @@
 #review-container {
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+@media (max-width: 768px) {
+  #review-container {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
 }
 
 .section-review__header h1 {
   text-align: center;
-  font-size: 5em;
-  font-weight: 400;
+  font-size: 7em;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 769px) {
+  .section-review__header h1 {
+    text-align: center;
+    font-size: 5em;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
 
 .section-review__header p {
   text-align: center;
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: normal;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .section-review__header p {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+    padding-bottom: 30px;
+  }
 }
