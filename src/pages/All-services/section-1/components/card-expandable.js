@@ -43,7 +43,7 @@ export default function ExpandableCard() {
         <h1>Mobile App Development</h1>
         <Typography variant="body2" color="textSecondary" component="p">
           As you know that there are around more than 5 billion people who are
-          using the mobile phones daily and it�s has been analyzed that over 1
+          using the mobile phones daily and its has been analyzed that over 1
           billion people mostly preferred the accessing of website through
           mobile phones because it is reliable for the viewers to view the
           website instantly anywhere in the world at any moment. While these
