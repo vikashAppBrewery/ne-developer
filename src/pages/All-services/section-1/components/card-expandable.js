@@ -8,7 +8,7 @@ import Collapse from "@material-ui/core/Collapse";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import MobDev from "../../../../assets/app-dev.svg";
+import MobDev from "../../../../assets/mobile-services.svg";
 import "./card-expandable.css";
 import Grid from "@material-ui/core/Grid";
 import MobileApp from "../../../../assets/mobile-app.svg";

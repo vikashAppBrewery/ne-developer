@@ -10,6 +10,9 @@ const Section1Services = () => {
   return (
     <Container maxWidth="lg" id="section1__services">
       <Grid container>
+        <Grid item xs={12} lg={6} className="section1__services-img">
+          <img src={AllServicesImage} alt="" />
+        </Grid>
         <Grid item xs={12} lg={6} className="section1__services-header">
           <h1>Our Services</h1>
           <h3>
@@ -29,9 +32,6 @@ const Section1Services = () => {
           <Box align="center">
             <AnimatedBtn title="Request A Qoute" />
           </Box>
-        </Grid>
-        <Grid item xs={12} lg={6} className="section1__services-img">
-          <img src={AllServicesImage} alt="" />
         </Grid>
       </Grid>
     </Container>

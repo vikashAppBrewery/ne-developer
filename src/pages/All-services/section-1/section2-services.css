@@ -1,3 +1,19 @@
 #expandable-card__2 {
   background: linear-gradient(to right, #ad5389, #3c1053) !important;
 }
+
+.section2-services__header {
+  text-align: center;
+  font-size: 5em;
+  font-weight: 600;
+  padding-top: 3em;
+}
+
+@media (max-width: 768px) {
+  .section2-services__header {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    padding-top: 1em;
+  }
+}
