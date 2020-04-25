@@ -37,7 +37,7 @@ export default function ExpandableCard() {
   };
 
   return (
-    <Card className={classes.root} id="expandable___card">
+    <Card className={classes.root} id="expandable___card" elevation={0}>
       <CardContent className="expandable-card__img">
         <img src={MobDev} alt="" />
         <h1>Mobile App Development</h1>
