@@ -10,21 +10,17 @@
 }
 
 .about-section__bg {
-  height: 80vh;
+  height: 60vh;
   width: 100%;
   position: relative;
 }
 
 @media (max-width: 768px) {
   .about-section__bg {
-    height: 500px;
+    height: 300px;
     width: 100%;
     position: relative;
   }
-}
-
-.About-hero__content {
-  text-align: center;
 }
 
 .About-hero__content h1 {
@@ -33,11 +29,19 @@
   font-weight: 500;
   position: relative;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
   .About-hero__content h1 {
-    font-size: 5em;
+    font-size: 3em;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 800px) and (orientation: landscape) {
+  .About-hero__content h1 {
+    font-size: 3em;
+    text-align: center;
   }
 }
 
@@ -47,9 +51,10 @@
   line-height: 35px;
   color: #252b33;
   letter-spacing: 1px;
+  text-align: center;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .About-hero__content span {
     padding-top: 0px;
     font-size: 12px;
