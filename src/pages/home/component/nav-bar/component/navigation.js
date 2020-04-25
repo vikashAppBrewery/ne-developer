@@ -20,8 +20,8 @@ class Navbar extends Component {
               <li>
                 <a href="/">Home</a>
               </li>
-              <li class="dropdown" aria-haspopup="true">
-                <a class="v-mid" href="/">
+              <li class="dropdown">
+                <a class="v-mid" href="#">
                   Services
                   <svg
                     class="icon v-mid"
@@ -34,7 +34,7 @@ class Navbar extends Component {
                   </svg>
                 </a>
 
-                <ul class="dropdown-content" aria-label="submenu">
+                <ul class="dropdown-content">
                   <li>
                     <a href="">App Development</a>
                   </li>
@@ -51,7 +51,7 @@ class Navbar extends Component {
                     <a href="">Startup Development</a>
                   </li>
                   <li>
-                    <a href="">Brand And Identity</a>
+                    <a href="">Brand and Identity</a>
                   </li>
                 </ul>
               </li>
@@ -61,6 +61,7 @@ class Navbar extends Component {
               <li>
                 <a href="/">Gallery</a>
               </li>
+
               <li>
                 <Link to="/contact-us"> Contact-us </Link>
               </li>
