@@ -1,7 +1,19 @@
 #section1__services {
-  padding-top: 20em;
+  padding-top: 30em;
 }
 
 .section1__services-img img {
-  background-size: 600px 350px;
+  background-size: 400px 250px;
+}
+
+.section1__services-header h1 {
+  font-size: 5em;
+  text-align: center;
+  font-weight: 600;
+}
+
+.section1__services-header h3 {
+  font-size: 1.6em;
+  text-align: center;
+  font-weight: 400;
 }
