@@ -10,6 +10,17 @@ import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import MobDev from "../../../../assets/app-dev.svg";
 import "./card-expandable.css";
+import Grid from "@material-ui/core/Grid";
+import MobileApp from "../../../../assets/mobile-app.svg";
+import IosIcon from "../../../../assets/ios.svg";
+import AndroidIcon from "../../../../assets/android-logo.svg";
+import ReactIcon from "../../../../assets/react-icon.svg";
+import FlutterIcon from "../../../../assets/flutter.svg";
+import IonicIcon from "../../../../assets/ionic.svg";
+import SwiftIcon from "../../../../assets/Swift.svg";
+import KotlinIcon from "../../../../assets/kotlin.svg";
+import AnimatedBtn from "../../../home/component/button/button";
+import Box from "@material-ui/core/Box";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -67,33 +78,78 @@ export default function ExpandableCard() {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Method:</Typography>
-          <Typography paragraph>
-            Heat 1/2 cup of the broth in a pot until simmering, add saffron and
-            set aside for 10 minutes.
-          </Typography>
-          <Typography paragraph>
-            Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet
-            over medium-high heat. Add chicken, shrimp and chorizo, and cook,
-            stirring occasionally until lightly browned, 6 to 8 minutes.
-            Transfer shrimp to a large plate and set aside, leaving chicken and
-            chorizo in the pan. Add pimentón, bay leaves, garlic, tomatoes,
-            onion, salt and pepper, and cook, stirring often until thickened and
-            fragrant, about 10 minutes. Add saffron broth and remaining 4 1/2
-            cups chicken broth; bring to a boil.
-          </Typography>
-          <Typography paragraph>
-            Add rice and stir very gently to distribute. Top with artichokes and
-            peppers, and cook without stirring, until most of the liquid is
-            absorbed, 15 to 18 minutes. Reduce heat to medium-low, add reserved
-            shrimp and mussels, tucking them down into the rice, and cook again
-            without stirring, until mussels have opened and rice is just tender,
-            5 to 7 minutes more. (Discard any mussels that don’t open.)
-          </Typography>
-          <Typography>
-            Set aside off of the heat to let rest for 10 minutes, and then
-            serve.
-          </Typography>
+          <Grid container>
+            <Grid item xs={12} lg={6}>
+              <img src={MobileApp} alt="icon-app-dev" />
+            </Grid>
+            <Grid item xs={12} lg={6} className="Mobile-app-development__img">
+              <h3>Mobile Apps Development</h3>
+              <Typography paragraph>
+                From B2B or B2E apps for enterprises, small businesses, and
+                startups, we have a proven track record of offering high-impact,
+                result driven and engaging mobile application development
+                services. NE DEVELOPER is a top mobile app development company
+                that is renowned for delivering native Android app development,
+                native iOS app development, hybrid and cross-platform app
+                development services to build next-gen mobile applications using
+                the latest technology stack.
+              </Typography>
+              <h3>What Technologies We Use</h3>
+              <Grid container>
+                <Grid item xs>
+                  <div className="icon-tab____collapse">
+                    <img src={IosIcon} alt="react" />
+                  </div>
+                </Grid>
+                <Grid item xs>
+                  <div className="icon-tab____collapse">
+                    <img src={AndroidIcon} alt="react" />
+                  </div>
+                </Grid>
+                <Grid item xs>
+                  <div className="icon-tab____collapse">
+                    <img src={ReactIcon} alt="react" />
+                  </div>
+                </Grid>
+                <Grid item xs>
+                  <div className="icon-tab____collapse">
+                    <img src={FlutterIcon} alt="react" />
+                  </div>
+                </Grid>
+                <Grid item xs>
+                  <div className="icon-tab____collapse">
+                    <img src={IonicIcon} alt="react" />
+                  </div>
+                </Grid>
+                <Grid item xs>
+                  <div className="icon-tab____collapse">
+                    <img src={SwiftIcon} alt="react" />
+                  </div>
+                </Grid>
+                <Grid item xs>
+                  <div className="icon-tab____collapse">
+                    <img src={KotlinIcon} alt="react" />
+                  </div>
+                </Grid>
+              </Grid>
+              <div className="service-points">
+                <ul>
+                  <li>Native iOS App Development</li>
+                  <li>Native Android App Development</li>
+                  <li>Cross-platform App Development</li>
+
+                  <li>Hybrid App Development</li>
+                  <li>Wearable App Development</li>
+                  <li>React Native App Development</li>
+                  <li>Xamarin App Development</li>
+                  <li>Flutter App Development</li>
+                </ul>
+              </div>
+              <Box align="center">
+                <AnimatedBtn title="Hire A Developer" />
+              </Box>
+            </Grid>
+          </Grid>
         </CardContent>
       </Collapse>
     </Card>

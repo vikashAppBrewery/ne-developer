@@ -10,7 +10,9 @@ const AllServices = () => {
     <div>
       <Header />
       <Section1Services />
+
       <Section2Services />
+
       <FooterNavigation />
     </div>
   );
