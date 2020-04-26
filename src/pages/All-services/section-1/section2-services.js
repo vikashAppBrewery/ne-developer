@@ -4,6 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import "./section2-services.css";
 import ExpandableCard from "./components/card-expandable";
 import ExpandableCard2 from "./components/card-expandbable-web";
+import ExpandableCard3 from "./components/card-expandable-ux";
 
 const Section2Services = () => {
   return (
@@ -15,6 +16,9 @@ const Section2Services = () => {
         </Grid>
         <Grid item xs={12} lg={12} className="section1__services___services">
           <ExpandableCard2 id="expandable-card__2" />
+        </Grid>
+        <Grid item xs={12} lg={12} className="section1__services___services">
+          <ExpandableCard3 id="expandable-card__2" />
         </Grid>
       </Grid>
     </Container>

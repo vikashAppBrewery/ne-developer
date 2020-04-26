@@ -9,17 +9,18 @@
 }
 
 .section1__services-img img {
+  padding-top: 3em;
   background-size: 400px 250px;
 }
 
 .section1__services-header h1 {
   font-size: 5em;
-  text-align: center;
+  text-align: left;
   font-weight: 600;
 }
 
 .section1__services-header h3 {
   font-size: 1.6em;
-  text-align: center;
+  text-align: left;
   font-weight: 400;
 }

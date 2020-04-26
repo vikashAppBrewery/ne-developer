@@ -8,17 +8,16 @@ import Collapse from "@material-ui/core/Collapse";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import MobDev from "../../../../assets/mobile-services.svg";
+import UxDev from "../../../../assets/services/ux-web.svg";
 import "./card-expandable.css";
 import Grid from "@material-ui/core/Grid";
-import MobileApp from "../../../../assets/mobile-app.svg";
-import IosIcon from "../../../../assets/ios.svg";
-import AndroidIcon from "../../../../assets/android-logo.svg";
-import ReactIcon from "../../../../assets/react-icon.svg";
-import FlutterIcon from "../../../../assets/flutter.svg";
-import IonicIcon from "../../../../assets/ionic.svg";
-import SwiftIcon from "../../../../assets/Swift.svg";
-import KotlinIcon from "../../../../assets/kotlin.svg";
+import UxApp from "../../../../assets/services/ux2.svg";
+import IosIcon from "../../../../assets/services/experience.svg";
+import AndroidIcon from "../../../../assets/services/indesign.svg";
+import ReactIcon from "../../../../assets/services/Sketch.svg";
+import FlutterIcon from "../../../../assets/services/photoshop.svg";
+import IonicIcon from "../../../../assets/services/illustrator.svg";
+
 import AnimatedBtn from "../../../home/component/button/button";
 import Box from "@material-ui/core/Box";
 
@@ -39,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ExpandableCard() {
+export default function ExpandableCard3() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -52,27 +51,25 @@ export default function ExpandableCard() {
       <CardContent className="expandable-card__img">
         <Grid container>
           <Grid item xs={12} lg={6} md={6}>
-            <h1>Mobile App Development</h1>
+            <h1>UI/UX Designing</h1>
             <Typography
               variant="body2"
               color="textSecondary"
               component="p"
               className="text__about__app"
             >
-              As you know that there are around more than 5 billion people who
-              are using the mobile phones daily and its has been analyzed that
-              over 1 billion people mostly preferred the accessing of website
-              through mobile phones because it is reliable for the viewers to
-              view the website instantly anywhere in the world at any moment.
-              While these numbers are astounding, the mobile web experience is
-              yet to live up to its full potential as compared to the
-              traditional web experience. We should have to be focused over
-              mobile web browsing techniques also because then only anybody can
-              visit our website with full comfort.
+              “User Experience Design” is often used interchangeably with terms
+              such as “User Interface Design” and “Usability”. However, while
+              usability and user interface (UI) design are important aspects of
+              UX design, they are subsets of it – UX design covers a vast array
+              of other areas, too. A UX designer is concerned with the entire
+              process of acquiring and integrating a product, including aspects
+              of branding, design, usability and function. It is a story that
+              begins before the device is even in the user’s hands.
             </Typography>
           </Grid>
           <Grid item xs={12} lg={6} md={6}>
-            <img src={MobDev} alt="" />
+            <img src={UxDev} alt="" />
           </Grid>
         </Grid>
       </CardContent>
@@ -92,19 +89,18 @@ export default function ExpandableCard() {
         <CardContent>
           <Grid container>
             <Grid item xs={12} lg={6}>
-              <img src={MobileApp} alt="icon-app-dev" />
+              <img src={UxApp} alt="icon-app-dev" />
             </Grid>
             <Grid item xs={12} lg={6} className="Mobile-app-development__img">
-              <h3>Mobile Apps Development</h3>
+              <h3>UI/UX Design</h3>
               <Typography paragraph>
-                From B2B or B2E apps for enterprises, small businesses, and
-                startups, we have a proven track record of offering high-impact,
-                result driven and engaging mobile application development
-                services. NE DEVELOPER is a top mobile app development company
-                that is renowned for delivering native Android app development,
-                native iOS app development, hybrid and cross-platform app
-                development services to build next-gen mobile applications using
-                the latest technology stack.
+                UI/UX design is the catalyst behind the success of any web or
+                mobile app. Ne developers web design and mobile app design
+                agency with a knack of turning great ideas into meaningful
+                interactions. Starting from conceptualization, information
+                architecture, visual identity, and UX design; hire UI/UX
+                designers from IndiaNIC for timely delivery of appealing
+                websites and mobile apps resulting maximum user engagement.
               </Typography>
               <h3>What Technologies We Use</h3>
               <Grid container>
@@ -133,32 +129,22 @@ export default function ExpandableCard() {
                     <img src={IonicIcon} alt="react" />
                   </div>
                 </Grid>
-                <Grid item xs>
-                  <div className="icon-tab____collapse">
-                    <img src={SwiftIcon} alt="react" />
-                  </div>
-                </Grid>
-                <Grid item xs>
-                  <div className="icon-tab____collapse">
-                    <img src={KotlinIcon} alt="react" />
-                  </div>
-                </Grid>
               </Grid>
               <div className="service-points">
                 <ul>
-                  <li>Native iOS App Development</li>
-                  <li>Native Android App Development</li>
-                  <li>Cross-platform App Development</li>
+                  <li>Wireframes Designing</li>
+                  <li>Strategic Design Consulting</li>
+                  <li>High/Low fidelity Prototype</li>
 
-                  <li>Hybrid App Development</li>
-                  <li>Wearable App Development</li>
-                  <li>React Native App Development</li>
-                  <li>Xamarin App Development</li>
-                  <li>Flutter App Development</li>
+                  <li>Mobile App Design</li>
+                  <li>Responsive Web Design</li>
+                  <li>Information Architecture</li>
+                  <li>UX Analysis</li>
+                  <li>UI Design</li>
                 </ul>
               </div>
               <Box align="center">
-                <AnimatedBtn title="Hire A Developer" />
+                <AnimatedBtn title="Hire A Designer" />
               </Box>
             </Grid>
           </Grid>

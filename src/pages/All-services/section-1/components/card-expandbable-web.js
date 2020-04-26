@@ -9,14 +9,14 @@ import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import WebDev from "../../../../assets/services/web-development.svg";
-import "./card-expandable.css";
+import "./card-expandable-web.css";
 import Grid from "@material-ui/core/Grid";
 import WebApp from "../../../../assets/services/web-dev2.svg";
 import ReactIcon from "../../../../assets/react-icon.svg";
-import CssIcon from "../../../../assets//css-3.svg";
+// import CssIcon from "../../../../assets//css-3.svg";
 import AngularIcon from "../../../../assets/angular.svg";
 import JavaScriptIcon from "../../../../assets/javascript.svg";
-import HtmlIcon from "../../../../assets/html5.svg";
+// import HtmlIcon from "../../../../assets/html5.svg";
 import WordpressIcon from "../../../../assets/Wordpress.svg";
 import PythonIcon from "../../../../assets/python.svg";
 import NodeIcon from "../../../../assets/node.svg";
@@ -54,21 +54,32 @@ export default function ExpandableCard2() {
   return (
     <Card className={classes.root} id="expandable___card" elevation={0}>
       <CardContent className="expandable-card__img">
-        <img src={WebDev} alt="" />
-        <h1>Web Development</h1>
-        <Typography variant="body2" color="textSecondary" component="p">
-          Web Logics require one thing, and that is functionality. Without it
-          most web sites development are useless. We offer a full range of web
-          solutions and web development for businesses, as well as individuals.
-          Our team of professionals with proven experience in the field of web
-          development can provide high quality, cost-effectiveness complete web
-          development solutions including complex database integrated web sites
-          development, e-commerce portals, intranet web development and web site
-          maintenance. We can develop advance systems that can handle mass
-          amounts of data and transactions. It doesn't matter how small or big
-          your company is we have solutions for any size of web site
-          development.
-        </Typography>
+        <Grid container>
+          <Grid item xs={12} lg={6} md={6}>
+            <img src={WebDev} alt="" />
+          </Grid>
+          <Grid item xs={12} lg={6} md={6}>
+            <h1>Web Development</h1>
+            <Typography
+              variant="body2"
+              color="textSecondary"
+              component="p"
+              className="text__about__app"
+            >
+              Web Logics require one thing, and that is functionality. Without
+              it most web sites development are useless. We offer a full range
+              of web solutions and web development for businesses, as well as
+              individuals. Our team of professionals with proven experience in
+              the field of web development can provide high quality,
+              cost-effectiveness complete web development solutions including
+              complex database integrated web sites development, e-commerce
+              portals, intranet web development and web site maintenance. We can
+              develop advance systems that can handle mass amounts of data and
+              transactions. It doesn't matter how small or big your company is
+              we have solutions for any size of web site development.
+            </Typography>
+          </Grid>
+        </Grid>
       </CardContent>
       <CardActions disableSpacing>
         <IconButton
@@ -87,7 +98,7 @@ export default function ExpandableCard2() {
           <Grid container>
             <Grid item xs={12} lg={6} className="Mobile-app-development__img">
               <h3>Web Development</h3>
-              <Typography paragraph>
+              <Typography paragraph className="paragraph__about__webdev">
                 We have the right combination of creative and technical
                 expertise to provide a full spectrum of web site development,
                 custom web site programming, eCommerce Web Development solutions
@@ -104,11 +115,11 @@ export default function ExpandableCard2() {
                     <img src={ReactIcon} alt="react" />
                   </div>
                 </Grid>
-                <Grid item xs>
+                {/* <Grid item xs>
                   <div className="icon-tab____collapse">
                     <img src={CssIcon} alt="react" />
                   </div>
-                </Grid>
+                </Grid> */}
                 <Grid item xs>
                   <div className="icon-tab____collapse">
                     <img src={AngularIcon} alt="react" />
@@ -119,11 +130,11 @@ export default function ExpandableCard2() {
                     <img src={JavaScriptIcon} alt="react" />
                   </div>
                 </Grid>
-                <Grid item xs>
+                {/* <Grid item xs>
                   <div className="icon-tab____collapse">
                     <img src={HtmlIcon} alt="react" />
                   </div>
-                </Grid>
+                </Grid> */}
                 <Grid item xs>
                   <div className="icon-tab____collapse">
                     <img src={WordpressIcon} alt="react" />
