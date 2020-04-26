@@ -10,9 +10,9 @@ const AllServices = () => {
     <div>
       <Header />
       <Section1Services />
-
-      <Section2Services />
-
+      <div className="section-developer-we__Do">
+        <Section2Services />
+      </div>
       <FooterNavigation />
     </div>
   );
