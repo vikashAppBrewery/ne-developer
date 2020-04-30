@@ -30,18 +30,30 @@ const ContactPage = () => {
               Main office:
             </h2>
             <p>
-              New bazar Gangtok sikkim <br />
-              737101
+              Opp. State Bank of Sikkim <br />
+              Metro point, Tadong
+              <br />
+              Gangtok, East Sikkim
+              <br />
+              737102
+            </p>
+
+            <h2>Branch offices:</h2>
+
+            <h2>
+              <img src={Map} alt="Address" />
+              Tamil Nadu
+            </h2>
+            <p>
+              Near post office, Themaiyan Street <br /> Koundampalayam,
+              Coimbatore
+              <br /> Tamil Nadu <br /> 641030
             </p>
 
             <h2>
-              <img src={Map} alt="address" />
-              Branch office:
+              <img src={Map} alt="Address" />
+              Karnataka
             </h2>
-            <p>
-              Coimbatore, Themaiyan Street <br /> Koundampalayam, Coimbatore
-              <br /> Tamil Nadu <br /> 641030
-            </p>
             <p>
               D-block AECS layout <br /> Kundlahalli, Marathahalli
               <br /> Karnataka <br /> 560037

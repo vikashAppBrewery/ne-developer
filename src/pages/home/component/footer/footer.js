@@ -7,6 +7,7 @@ import Instagram from "../../../../assets/instagram.svg";
 import Phone from "../../../../assets/phone.svg";
 import Mail from "../../../../assets/mail.svg";
 import Marker from "../../../../assets/map.svg";
+import Logo from "../../../../assets/team-icon/ne-developers.svg";
 
 const FooterNavigation = () => {
   return (
@@ -16,10 +17,7 @@ const FooterNavigation = () => {
       data-aos-duration="2000"
     >
       <div className="footer-left">
-        <h3>
-          Company<span>logo</span>
-        </h3>
-
+        <img className="footer_img__logo" src={Logo} alt="props" />
         <p className="footer-links">
           <a href="./" className="link-1">
             Home
@@ -59,25 +57,21 @@ const FooterNavigation = () => {
       </div>
 
       <div className="footer-right">
-        <p className="footer-company-about">
-          <span>About the company</span>
-          We deliver web and mobile app development services to global
-          businesses since 2015, with 100% project delivery success. Hire the
-          best programmers at affordable prices. Our design-focused approach and
-          project execution processes help you to deliver the right solutions.
-        </p>
+        <p className="footer-company-about"></p>
 
         <div className="footer-icons">
-          <a href="./">
+          <a href="https://www.facebook.com/nedevelopers">
             <img src={Facebook} alt="fb-icon" />
           </a>
-          <a href="./">
+          <a href="https://twitter.com/nedevelopers">
             <img src={Twitter} alt="twitter-icon" />
           </a>
-          <a href="./">
-            <img src={LinkedIn} alt="Linkedin-icon" />
+
+          <a href="https://www.youtube.com/channel/UC7ZRzsMvFz1k9aiElHgTKFw?">
+            <img src={Twitter} alt="twitter-icon" />
           </a>
-          <a href="./">
+
+          <a href="https://www.instagram.com/nedevelopers/">
             <img src={Instagram} alt="instagram-icon" />
           </a>
         </div>

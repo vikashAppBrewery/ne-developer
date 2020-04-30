@@ -103,11 +103,28 @@ export default function ExpandableCard4() {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Grid container>
-            <Grid item xs={12} lg={6}>
-              <img src={UxApp} alt="icon-app-dev" />
+          <Grid container direction="row">
+            <Grid item xs={12} lg={12}>
+              <h1>What We Do</h1>
+              <Grid item lg={3}>
+                <Card>
+                  <img src={UxApp} alt="alt-props" />
+                </Card>
+              </Grid>
+              <Grid item lg={3}>
+                <Card>
+                  <img src={UxApp} alt="alt-props" />
+                </Card>
+              </Grid>
             </Grid>
-            <Grid item xs={12} lg={6} className="Mobile-app-development__img">
+
+            <Grid
+              item
+              xs={12}
+              lg={12}
+              className="Mobile-app-development__img"
+              align="center"
+            >
               <h3>Graphic Design</h3>
               <Typography paragraph>
                 UI/UX design is the catalyst behind the success of any web or
