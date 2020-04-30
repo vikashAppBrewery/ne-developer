@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact-us.css";
-import Card from "@material-ui/core/Card";
+
 import Header from "../home/component/nav-bar/nav-bar";
 import FooterNavigation from "../home/component/footer/footer";
 import MyForm from "./component/form";
@@ -26,7 +26,7 @@ const ContactPage = () => {
           >
             <h1>Address</h1>
             <h2>
-              <img src={Map} />
+              <img src={Map} alt="Address" />
               Main office:
             </h2>
             <p>
@@ -35,7 +35,7 @@ const ContactPage = () => {
             </p>
 
             <h2>
-              <img src={Map} />
+              <img src={Map} alt="address" />
               Branch office:
             </h2>
             <p>
@@ -48,11 +48,11 @@ const ContactPage = () => {
             </p>
             <h1>Customer Support</h1>
             <p>
-              <img src={Phone} />
+              <img src={Phone} alt="Phone" />
               +91-9789939112
             </p>
             <p>
-              <img src={Phone} />
+              <img src={Phone} alt="phone" />
               +91-8610043765
             </p>
           </Grid>

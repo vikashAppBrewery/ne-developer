@@ -9,6 +9,7 @@ import SectionTablistTech from "./sections/section-tablist-tech";
 import ProjectSection from "./sections/section-project";
 import SectionReview from "./sections/section-review";
 import FooterNavigation from "./component/footer/footer";
+
 class Home extends React.Component {
   render() {
     return (

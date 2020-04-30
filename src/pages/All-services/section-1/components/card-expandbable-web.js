@@ -7,7 +7,8 @@ import CardActions from "@material-ui/core/CardActions";
 import Collapse from "@material-ui/core/Collapse";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+
+import ArrowDropDownCircleIcon from "@material-ui/icons/ArrowDropDownCircle";
 import WebDev from "../../../../assets/services/web-development.svg";
 import "./card-expandable-web.css";
 import Grid from "@material-ui/core/Grid";
@@ -33,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
 
   expand: {
     transform: "rotate(0deg)",
-    marginLeft: "auto",
+    margin: "0 auto",
     transition: theme.transitions.create("transform", {
       duration: theme.transitions.duration.shortest,
     }),
@@ -90,12 +91,15 @@ export default function ExpandableCard2() {
           aria-expanded={expanded}
           aria-label="show more"
         >
-          <ExpandMoreIcon id="expand-more__icon" />
+          <ArrowDropDownCircleIcon id="expand-more__icon" />
         </IconButton>
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <Grid container>
+            <Grid item xs={12} lg={6}>
+              <img src={WebApp} alt="icon-app-dev" />
+            </Grid>
             <Grid item xs={12} lg={6} className="Mobile-app-development__img">
               <h3>Web Development</h3>
               <Typography paragraph className="paragraph__about__webdev">
@@ -182,9 +186,6 @@ export default function ExpandableCard2() {
               <Box align="center">
                 <AnimatedBtn title="Hire A Developer" />
               </Box>
-            </Grid>
-            <Grid item xs={12} lg={6}>
-              <img src={WebApp} alt="icon-app-dev" />
             </Grid>
           </Grid>
         </CardContent>

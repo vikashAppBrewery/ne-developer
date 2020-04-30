@@ -3,14 +3,12 @@ import "./project-card-2.css";
 import Grid from "@material-ui/core/Grid";
 import Mockup from "../../../../assets/ne-dev.png";
 import Card from "@material-ui/core/Card";
-import Box from "@material-ui/core/Box";
 
 const ProjectCard2 = () => {
   return (
     <Card
-      className="MuiCard-root-1"
+      className="MuiCard-root-1 project-card-2"
       elevation={2}
-      className="project-card-2"
       data-aos="fade-up"
       data-aos-duration="2000"
     >

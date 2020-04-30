@@ -9,6 +9,7 @@ import Build from "../../../assets/coding.svg";
 import Deploy from "../../../assets/deployment.svg";
 import Box from "@material-ui/core/Box";
 import AnimatedBtn from "../component/button/button";
+import { Link } from "react-router-dom";
 
 const SectionDevelopment = (props) => {
   return (
@@ -55,7 +56,9 @@ const SectionDevelopment = (props) => {
           </Grid>
         </Grid>
         <Box display="flex" justifyContent="center" id="Animated__btn">
-          <AnimatedBtn title="Get a qoute" />
+          <Link to="/contact-us" className="links-to">
+            <AnimatedBtn title="Get a qoute" />
+          </Link>
         </Box>
       </Container>
     </section>

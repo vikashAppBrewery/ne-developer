@@ -6,8 +6,9 @@ import CardContent from "@material-ui/core/CardContent";
 import CardActions from "@material-ui/core/CardActions";
 import Collapse from "@material-ui/core/Collapse";
 import IconButton from "@material-ui/core/IconButton";
+import ArrowDropDownCircleIcon from "@material-ui/icons/ArrowDropDownCircle";
 import Typography from "@material-ui/core/Typography";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+
 import MobDev from "../../../../assets/mobile-services.svg";
 import "./card-expandable.css";
 import Grid from "@material-ui/core/Grid";
@@ -29,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
 
   expand: {
     transform: "rotate(0deg)",
-    marginLeft: "auto",
+    margin: "0 auto",
     transition: theme.transitions.create("transform", {
       duration: theme.transitions.duration.shortest,
     }),
@@ -52,6 +53,9 @@ export default function ExpandableCard() {
       <CardContent className="expandable-card__img">
         <Grid container>
           <Grid item xs={12} lg={6} md={6}>
+            <img src={MobDev} alt="" />
+          </Grid>
+          <Grid item xs={12} lg={6} md={6}>
             <h1>Mobile App Development</h1>
             <Typography
               variant="body2"
@@ -71,9 +75,6 @@ export default function ExpandableCard() {
               visit our website with full comfort.
             </Typography>
           </Grid>
-          <Grid item xs={12} lg={6} md={6}>
-            <img src={MobDev} alt="" />
-          </Grid>
         </Grid>
       </CardContent>
       <CardActions disableSpacing>
@@ -85,7 +86,7 @@ export default function ExpandableCard() {
           aria-expanded={expanded}
           aria-label="show more"
         >
-          <ExpandMoreIcon id="expand-more__icon" />
+          <ArrowDropDownCircleIcon id="expand-more__icon" />
         </IconButton>
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>

@@ -7,7 +7,6 @@ import CardActions from "@material-ui/core/CardActions";
 import Collapse from "@material-ui/core/Collapse";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
-
 import ArrowDropDownCircleIcon from "@material-ui/icons/ArrowDropDownCircle";
 import UxDev from "../../../../assets/services/ux-web.svg";
 import "./card-expandable.css";
@@ -39,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ExpandableCard3() {
+export default function ExpandableCard4() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -55,21 +54,37 @@ export default function ExpandableCard3() {
             <img src={UxDev} alt="" />
           </Grid>
           <Grid item xs={12} lg={6} md={6}>
-            <h1>UI/UX Designing</h1>
+            <h1>Graphic Design</h1>
             <Typography
               variant="body2"
               color="textSecondary"
               component="p"
               className="text__about__app"
             >
-              “User Experience Design” is often used interchangeably with terms
-              such as “User Interface Design” and “Usability”. However, while
-              usability and user interface (UI) design are important aspects of
-              UX design, they are subsets of it – UX design covers a vast array
-              of other areas, too. A UX designer is concerned with the entire
-              process of acquiring and integrating a product, including aspects
-              of branding, design, usability and function. It is a story that
-              begins before the device is even in the user’s hands.
+              We create visual concepts, using computer software or by hand, to
+              communicate ideas that inspire, inform, and captivate consumers.
+              We develop the overall layout and production design for
+              applications such as advertisements, brochures, magazines, and
+              reports.
+              <h3>Our approach</h3>
+              <ul>
+                <li>
+                  Meet with clients or the art director to determine the scope
+                  of a project
+                </li>
+                <li>
+                  Create visual elements such as logos, original images, and
+                  illustrations to help deliver a message
+                </li>
+                <li>Present design concepts to clients or art directors</li>
+                <li>
+                  Incorporate changes recommended by clients or art directors
+                  into final designs
+                </li>
+                <li>
+                  Review designs for errors before printing or publishing them
+                </li>
+              </ul>
             </Typography>
           </Grid>
         </Grid>
@@ -93,7 +108,7 @@ export default function ExpandableCard3() {
               <img src={UxApp} alt="icon-app-dev" />
             </Grid>
             <Grid item xs={12} lg={6} className="Mobile-app-development__img">
-              <h3>UI/UX Design</h3>
+              <h3>Graphic Design</h3>
               <Typography paragraph>
                 UI/UX design is the catalyst behind the success of any web or
                 mobile app. Ne developers web design and mobile app design

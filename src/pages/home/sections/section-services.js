@@ -40,7 +40,7 @@ class SectionServices extends React.Component {
 
             <CardServices imgSrc={UiDev} titleservices="UI/UX Development" />
 
-            <CardServices imgSrc={PrintEvent} titleservices="Print & Event" />
+            <CardServices imgSrc={PrintEvent} titleservices="Graphic design" />
 
             <CardServices
               imgSrc={StarDev}
