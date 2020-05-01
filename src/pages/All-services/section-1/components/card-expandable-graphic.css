@@ -1,0 +1,50 @@
+.card__graphic__design {
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__graphic__design h3 {
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.card__graphic__design img {
+  width: 15em;
+  height: 15em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row__second-graphic {
+  padding-top: 2em;
+}
+
+.box-button-animated {
+  padding-top: 5em;
+}
+
+.icon-tab____collapse-graphic img {
+  width: 60px;
+  height: 60px;
+  padding-top: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  .icon-tab____collapse-graphic img {
+    width: 30px;
+    height: 30px;
+    padding-top: 0em;
+  }
+}
+
+.graphic-design_____header {
+  padding-top: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  .graphic-design_____header {
+    padding-top: 0em;
+  }
+}

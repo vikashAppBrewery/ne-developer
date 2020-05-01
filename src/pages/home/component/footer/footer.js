@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import Facebook from "../../../../assets/facebook.svg";
 import Twitter from "../../../../assets/twitter.svg";
-import LinkedIn from "../../../../assets/linkedin.svg";
+import Youtube from "../../../../assets/youtube.svg";
 import Instagram from "../../../../assets/instagram.svg";
 import Phone from "../../../../assets/phone.svg";
 import Mail from "../../../../assets/mail.svg";
@@ -60,18 +60,21 @@ const FooterNavigation = () => {
         <p className="footer-company-about"></p>
 
         <div className="footer-icons">
-          <a href="https://www.facebook.com/nedevelopers">
+          <a href="https://www.facebook.com/nedevelopers" target="_blank">
             <img src={Facebook} alt="fb-icon" />
           </a>
-          <a href="https://twitter.com/nedevelopers">
+          <a href="https://twitter.com/nedevelopers" target="_blank">
             <img src={Twitter} alt="twitter-icon" />
           </a>
 
-          <a href="https://www.youtube.com/channel/UC7ZRzsMvFz1k9aiElHgTKFw?">
-            <img src={Twitter} alt="twitter-icon" />
+          <a
+            href="https://www.youtube.com/channel/UC7ZRzsMvFz1k9aiElHgTKFw?"
+            target="_blank"
+          >
+            <img src={Youtube} alt="twitter-icon" />
           </a>
 
-          <a href="https://www.instagram.com/nedevelopers/">
+          <a href="https://www.instagram.com/nedevelopers/" target="_blank">
             <img src={Instagram} alt="instagram-icon" />
           </a>
         </div>

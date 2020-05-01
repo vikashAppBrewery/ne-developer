@@ -199,3 +199,8 @@
   height: 100px;
   width: 100px;
 }
+
+.footer-icons img {
+  width: 30px;
+  height: 30px;
+}

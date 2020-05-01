@@ -8,15 +8,28 @@ import Collapse from "@material-ui/core/Collapse";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import ArrowDropDownCircleIcon from "@material-ui/icons/ArrowDropDownCircle";
-import UxDev from "../../../../assets/services/ux-web.svg";
+import Graphic from "../../../../assets/services/graphic-d.svg";
+import LogoDesign from "../../../../assets/services/logo-design.svg";
+import BuisnessCard from "../../../../assets/services/buisness-card.svg";
+import StationaryCard from "../../../../assets/services/stationary.svg";
+import LetterHead from "../../../../assets/services/letter-header.svg";
+import LabelDesign from "../../../../assets/services/label-design.svg";
+import Brochure from "../../../../assets/services/brochure.svg";
+import CharacterDesign from "../../../../assets/services/character-design.svg";
+import VideoPlayer from "../../../../assets/services/video-player.svg";
+import VideoEditing from "../../../../assets/services/Video-Editing.svg";
+import BillBoard from "../../../../assets/services/billboard-design.svg";
 import "./card-expandable.css";
 import Grid from "@material-ui/core/Grid";
-import UxApp from "../../../../assets/services/ux2.svg";
+
 import IosIcon from "../../../../assets/services/experience.svg";
 import AndroidIcon from "../../../../assets/services/indesign.svg";
 import ReactIcon from "../../../../assets/services/Sketch.svg";
 import FlutterIcon from "../../../../assets/services/photoshop.svg";
 import IonicIcon from "../../../../assets/services/illustrator.svg";
+import Dimensions from "../../../../assets/services/Adobe-Dimension.svg";
+import Premiere from "../../../../assets/services/Adobe-Premiere.svg";
+import "./card-expandable-graphic.css";
 
 import AnimatedBtn from "../../../home/component/button/button";
 import Box from "@material-ui/core/Box";
@@ -51,7 +64,7 @@ export default function ExpandableCard4() {
       <CardContent className="expandable-card__img">
         <Grid container>
           <Grid item xs={12} lg={6} md={6}>
-            <img src={UxDev} alt="" />
+            <img src={Graphic} alt="" />
           </Grid>
           <Grid item xs={12} lg={6} md={6}>
             <h1>Graphic Design</h1>
@@ -103,21 +116,75 @@ export default function ExpandableCard4() {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Grid container direction="row">
-            <Grid item xs={12} lg={12}>
-              <h1>What We Do</h1>
-              <Grid item lg={3}>
-                <Card>
-                  <img src={UxApp} alt="alt-props" />
+          <Grid container>
+            <div className="main-header__expandable">
+              <h3>Our Graphic Design Services</h3>
+            </div>
+            <Grid container spacing={4}>
+              <Grid item xs>
+                <Card className="card__graphic__design" elevation={2}>
+                  <img src={LogoDesign} alt="logo-design" />
+                  <h3>Logo Design</h3>
                 </Card>
               </Grid>
-              <Grid item lg={3}>
-                <Card>
-                  <img src={UxApp} alt="alt-props" />
+              <Grid item xs>
+                <Card className="card__graphic__design" elevation={2}>
+                  <img src={BuisnessCard} alt="logo-design" />
+                  <h3>Buisness Card</h3>
+                </Card>
+              </Grid>
+              <Grid item xs>
+                <Card className="card__graphic__design" elevation={2}>
+                  <img src={StationaryCard} alt="logo-design" />
+                  <h3>Stationary Design</h3>
+                </Card>
+              </Grid>
+              <Grid item xs>
+                <Card className="card__graphic__design" elevation={2}>
+                  <img src={LetterHead} alt="logo-design" />
+                  <h3>Letter Head</h3>
+                </Card>
+              </Grid>
+              <Grid item xs>
+                <Card className="card__graphic__design" elevation={2}>
+                  <img src={LabelDesign} alt="logo-design" />
+                  <h3>Label Design</h3>
                 </Card>
               </Grid>
             </Grid>
+            <Grid container spacing={4} className="row__second-graphic">
+              <Grid item xs>
+                <Card className="card__graphic__design" elevation={2}>
+                  <img src={Brochure} alt="logo-design" />
+                  <h3>Brochure Design</h3>
+                </Card>
+              </Grid>
+              <Grid item xs>
+                <Card className="card__graphic__design" elevation={2}>
+                  <img src={CharacterDesign} alt="logo-design" />
+                  <h3>character Design</h3>
+                </Card>
+              </Grid>
 
+              <Grid item xs>
+                <Card className="card__graphic__design" elevation={2}>
+                  <img src={VideoPlayer} alt="logo-design" />
+                  <h3>Ad Videos</h3>
+                </Card>
+              </Grid>
+              <Grid item xs>
+                <Card className="card__graphic__design" elevation={2}>
+                  <img src={VideoEditing} alt="logo-design" />
+                  <h3>Vieo Editing</h3>
+                </Card>
+              </Grid>
+              <Grid item xs>
+                <Card className="card__graphic__design" elevation={2}>
+                  <img src={BillBoard} alt="logo-design" />
+                  <h3>BillBoard Design</h3>
+                </Card>
+              </Grid>
+            </Grid>
             <Grid
               item
               xs={12}
@@ -125,58 +192,48 @@ export default function ExpandableCard4() {
               className="Mobile-app-development__img"
               align="center"
             >
-              <h3>Graphic Design</h3>
-              <Typography paragraph>
-                UI/UX design is the catalyst behind the success of any web or
-                mobile app. Ne developers web design and mobile app design
-                agency with a knack of turning great ideas into meaningful
-                interactions. Starting from conceptualization, information
-                architecture, visual identity, and UX design; hire UI/UX
-                designers from IndiaNIC for timely delivery of appealing
-                websites and mobile apps resulting maximum user engagement.
-              </Typography>
-              <h3>What Technologies We Use</h3>
+              <h3 className="graphic-design_____header">
+                What Software We Use
+              </h3>
               <Grid container>
                 <Grid item xs>
-                  <div className="icon-tab____collapse">
+                  <div className="icon-tab____collapse-graphic">
                     <img src={IosIcon} alt="react" />
                   </div>
                 </Grid>
                 <Grid item xs>
-                  <div className="icon-tab____collapse">
+                  <div className="icon-tab____collapse-graphic">
                     <img src={AndroidIcon} alt="react" />
                   </div>
                 </Grid>
                 <Grid item xs>
-                  <div className="icon-tab____collapse">
+                  <div className="icon-tab____collapse-graphic">
                     <img src={ReactIcon} alt="react" />
                   </div>
                 </Grid>
                 <Grid item xs>
-                  <div className="icon-tab____collapse">
+                  <div className="icon-tab____collapse-graphic">
                     <img src={FlutterIcon} alt="react" />
                   </div>
                 </Grid>
                 <Grid item xs>
-                  <div className="icon-tab____collapse">
+                  <div className="icon-tab____collapse-graphic">
                     <img src={IonicIcon} alt="react" />
                   </div>
                 </Grid>
+                <Grid item xs>
+                  <div className="icon-tab____collapse-graphic">
+                    <img src={Dimensions} alt="react" />
+                  </div>
+                </Grid>
+                <Grid item xs>
+                  <div className="icon-tab____collapse-graphic">
+                    <img src={Premiere} alt="react" />
+                  </div>
+                </Grid>
               </Grid>
-              <div className="service-points">
-                <ul>
-                  <li>Wireframes Designing</li>
-                  <li>Strategic Design Consulting</li>
-                  <li>High/Low fidelity Prototype</li>
 
-                  <li>Mobile App Design</li>
-                  <li>Responsive Web Design</li>
-                  <li>Information Architecture</li>
-                  <li>UX Analysis</li>
-                  <li>UI Design</li>
-                </ul>
-              </div>
-              <Box align="center">
+              <Box align="center" className="box-button-animated">
                 <AnimatedBtn title="Hire A Designer" />
               </Box>
             </Grid>
