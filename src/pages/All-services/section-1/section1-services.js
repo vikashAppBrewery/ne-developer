@@ -3,7 +3,7 @@ import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import "./section1-services.css";
 import AllServicesImage from "../../../assets/all-services.svg";
-import AnimatedBtn from "../../home/component/button/button";
+import SimpleModal from "../../qoute-form/form-qoute";
 import Box from "@material-ui/core/Box";
 
 const Section1Services = () => {
@@ -30,7 +30,7 @@ const Section1Services = () => {
             offer.
           </h3>
           <Box align="center">
-            <AnimatedBtn title="Request A Qoute" />
+            <SimpleModal />
           </Box>
         </Grid>
       </Grid>

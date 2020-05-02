@@ -22,6 +22,7 @@ class Home extends React.Component {
         <SectionTablistTech />
         <ProjectSection />
         <SectionReview />
+
         <FooterNavigation />
       </div>
     );

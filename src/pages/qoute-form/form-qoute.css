@@ -1,0 +1,119 @@
+#modal-body-qoute__form {
+  max-width: 60%;
+  width: 60%;
+  position: absolute;
+  margin: 0 auto;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #modal-body-qoute__form {
+    max-width: 80%;
+    width: 90%;
+    position: absolute;
+    margin: 0 auto;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+  }
+}
+
+:root {
+  --background-color: #252a34;
+  --hover-bg-color: #790c5a;
+  --hover-txt-color: white;
+  --distance: 4px;
+  --border-color: #790c5a;
+  --text-color: #e6739f;
+  --animation-duration: 2s;
+  --animation-ease: ease-in-out;
+}
+
+.modal-btn {
+  padding: 6px;
+  position: relative;
+  border: 0;
+  background-color: transparent;
+  padding: 8px 24px;
+  text-transform: uppercase;
+  font-family: inherit;
+  letter-spacing: 2px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  overflow: hidden;
+  margin: 16px 4px;
+  cursor: pointer;
+}
+.modal-btn:hover {
+  background-color: var(--hover-bg-color);
+  color: var(--hover-txt-color);
+}
+.modal-btn::before,
+.modal-btn::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  border: 2px solid var(--border-color);
+}
+.modal-btn::after {
+  animation: animateAfter var(--animation-duration) var(--animation-ease)
+    infinite;
+}
+.modal-btn::before {
+  animation: animateBefore var(--animation-duration) var(--animation-ease)
+    infinite;
+}
+.modal-btn.reverse::before,
+.modal-btn.reverse::after {
+  animation-direction: reverse;
+}
+@keyframes animateAfter {
+  0% {
+    transform: translatey(calc(-100% + var(--distance)))
+      translateX(calc(-100% + var(--distance)));
+  }
+  25% {
+    transform: translatey(calc(-100% + var(--distance)))
+      translatex(calc(100% - var(--distance)));
+  }
+  50% {
+    transform: translatey(calc(100% - var(--distance)))
+      translatex(calc(100% - var(--distance)));
+  }
+  75% {
+    transform: translatey(calc(100% - var(--distance)))
+      translatex(calc(-100% + var(--distance)));
+  }
+  100% {
+    transform: translatey(calc(-100% + var(--distance)))
+      translatex(calc(-100% + var(--distance)));
+  }
+}
+@keyframes animateBefore {
+  0% {
+    transform: translatey(calc(100% - var(--distance)))
+      translatex(calc(100% - var(--distance)));
+  }
+  25% {
+    transform: translatey(calc(100% - var(--distance)))
+      translatex(calc(-100% + var(--distance)));
+  }
+  35% {
+    transform: translatey(calc(-100% + var(--distance)))
+      translatex(calc(-100% + var(--distance)));
+  }
+  75% {
+    transform: translatey(calc(-100% + var(--distance)))
+      translatex(calc(100% - var(--distance)));
+  }
+  100% {
+    transform: translatey(calc(100% - var(--distance)))
+      translatex(calc(100% - var(--distance)));
+  }
+}
