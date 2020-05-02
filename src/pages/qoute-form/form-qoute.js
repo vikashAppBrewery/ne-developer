@@ -4,12 +4,8 @@ import Modal from "@material-ui/core/Modal";
 import QouteForm from "./qoute-form";
 import "./form-qoute.css";
 
-function rand() {
-  return Math.round(Math.random() * 20) - 10;
-}
-
 function getModalStyle() {
-  const top = 50;
+  const top = 60;
   const left = 50;
 
   return {
