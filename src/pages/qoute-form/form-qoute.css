@@ -6,8 +6,6 @@
   background-color: white;
   border: none;
   border-radius: 10px;
-  max-height: 60%;
-  height: 60%;
 }
 
 @media screen and (max-width: 768px) {
