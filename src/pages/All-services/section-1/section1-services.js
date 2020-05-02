@@ -9,7 +9,7 @@ import Box from "@material-ui/core/Box";
 const Section1Services = () => {
   return (
     <Container maxWidth="lg" id="section1__services">
-      <Grid container>
+      <Grid container data-aos="fade-up" data-aos-duration="2000">
         <Grid item xs={12} lg={6} className="section1__services-img">
           <img src={AllServicesImage} alt="" />
         </Grid>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import DrawerToggleButton from "./side-drawer/DrawerToggleButton";
+import NeLogo from "../../../../../assets/team-icon/ne-dev.svg";
 import "./navigation.css";
 
 import { Link } from "react-router-dom";
@@ -12,7 +13,9 @@ class Navbar extends Component {
             <DrawerToggleButton click={this.props.drawerClickHandler} />
           </div>
           <div className="NavbarLogo">
-            <a href="/">NE DEVELOPER</a>
+            <a href="/">
+              <img src={NeLogo} alt="ne-logo" />
+            </a>
           </div>
           <div className="spacer" />
           <div className="NavbarNavigationsItems">

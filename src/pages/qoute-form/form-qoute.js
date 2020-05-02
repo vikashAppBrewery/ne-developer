@@ -51,6 +51,8 @@ export default function SimpleModal() {
       style={modalStyle}
       id="modal-body-qoute__form"
       className={classes.paper}
+      data-aos="fade-up"
+      data-aos-duration="1000"
     >
       <h2 id="simple-modal-title">Get a Qoute Form</h2>
       <QouteForm />

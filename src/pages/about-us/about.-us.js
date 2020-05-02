@@ -6,7 +6,7 @@ import "./about-us.css";
 import SectionAboutUs1 from "./sections/section-1-about-us";
 import Section3AboutUs from "./sections/section-3-about-us";
 import Box from "@material-ui/core/Box";
-import AnimatedBtn from "../home/component/button/button";
+import SimpleModal from "../qoute-form/form-qoute";
 const PageAboutUs = () => {
   return (
     <div className="page-about__us">
@@ -39,7 +39,7 @@ const PageAboutUs = () => {
         data-aos="fade-up"
         data-aos-duration="2000"
       >
-        <AnimatedBtn title="Get A qoute" />
+        <SimpleModal />
       </Box>
       <FooterNavigation />
     </div>

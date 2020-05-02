@@ -10,18 +10,52 @@ import ExpandableCard4 from "./components/card-expandable-graphic";
 const Section2Services = () => {
   return (
     <Container max-width="xl">
-      <h1 className="section2-services__header">All Services</h1>
+      <h1
+        className="section2-services__header"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
+        All Services
+      </h1>
       <Grid container>
-        <Grid item xs={12} lg={12} className="section1__services___services">
+        <Grid
+          item
+          xs={12}
+          lg={12}
+          className="section1__services___services"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <ExpandableCard />
         </Grid>
-        <Grid item xs={12} lg={12} className="section1__services___services">
+        <Grid
+          item
+          xs={12}
+          lg={12}
+          className="section1__services___services"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <ExpandableCard2 id="expandable-card__2" />
         </Grid>
-        <Grid item xs={12} lg={12} className="section1__services___services">
+        <Grid
+          item
+          xs={12}
+          lg={12}
+          className="section1__services___services"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <ExpandableCard3 id="expandable-card__2" />
         </Grid>
-        <Grid item xs={12} lg={12} className="section1__services___services">
+        <Grid
+          item
+          xs={12}
+          lg={12}
+          className="section1__services___services"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <ExpandableCard4 id="expandable-card__2" />
         </Grid>
       </Grid>

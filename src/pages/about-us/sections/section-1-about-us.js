@@ -5,6 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import ImageHeader from "../../../assets/section-about-header.svg";
 import AnimatedBtn from "../../home/component/button/button";
 import Box from "@material-ui/core/Box";
+import SimpleModal from "../../qoute-form/form-qoute";
 const SectionAboutUs1 = () => {
   return (
     <Container max-width="lg" id="section-about__us">
@@ -29,7 +30,7 @@ const SectionAboutUs1 = () => {
             How can we help you?
           </p>
           <Box align="center" className="Box-btn">
-            <AnimatedBtn title="Request A Qoute" />
+            <SimpleModal />
           </Box>
         </Grid>
         <Grid
