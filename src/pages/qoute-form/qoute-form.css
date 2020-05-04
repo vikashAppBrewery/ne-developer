@@ -23,6 +23,16 @@
   outline: none;
 }
 
+#qoute-form select {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #b4b4b4;
+  border-radius: 5px;
+  margin: 6px 0 20px 0;
+  padding-left: 10px;
+  outline: none;
+}
+
 #qoute-form textarea {
   height: 50px;
   width: calc(100% - 10px);
@@ -42,7 +52,7 @@
   text-transform: uppercase;
   outline: 0;
   background: #4caf50;
-  width: 100%;
+  width: 30%;
   border: 0;
   padding: 15px;
   color: #ffffff;

@@ -33,13 +33,14 @@ export default class QouteForm extends React.Component {
         <label>Email:</label>
         <input type="email" name="email" required />
         <label>Budget:</label>
-        <input
-          type="text"
-          name="budget"
-          placeholder="what your budget is?"
-          required
-          minLength="3"
-        />
+        <select id="cars" name="budget" placeholder="Select">
+          <option value="noteselected">SELECT</option>
+          <option value="notesure">Not Sure</option>
+          <option value="50k">Under 50k</option>
+          <option value="50k-100k">50k - 1lac</option>
+          <option value="100k-300k">1lac to 3lac</option>
+          <option value="<300k">Above 3lac</option>
+        </select>
         <label>Phone Number:</label>
         <input type="number" name="phone" required minLength="10" />
         <label>Message:</label>
