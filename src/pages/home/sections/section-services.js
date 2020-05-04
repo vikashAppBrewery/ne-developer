@@ -9,7 +9,11 @@ import UiDev from "../../../assets/ui-dev.svg";
 import BranDev from "../../../assets/bran-dev.svg";
 import StarDev from "../../../assets/star-dev.svg";
 import PrintEvent from "../../../assets/print-event.svg";
+import AnimatedBtn from "../../home/component/button/button";
+import { Link } from "react-router-dom";
+import Box from "@material-ui/core/Box";
 import AOS from "aos";
+
 import "aos/dist/aos.css";
 
 AOS.init();
@@ -49,6 +53,16 @@ class SectionServices extends React.Component {
 
             <CardServices imgSrc={BranDev} titleservices="Brand & Identity" />
           </Grid>
+          <Box
+            align="center"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            padding="2em"
+          >
+            <Link to="all-services" className="btn-btn-all-services">
+              <AnimatedBtn title="Learn More" />
+            </Link>
+          </Box>
         </Container>
       </div>
     );

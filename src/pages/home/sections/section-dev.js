@@ -10,7 +10,6 @@ import Deploy from "../../../assets/deployment.svg";
 import Box from "@material-ui/core/Box";
 
 import SimpleModal from "../../qoute-form/form-qoute";
-import { Link } from "react-router-dom";
 
 const SectionDevelopment = (props) => {
   return (

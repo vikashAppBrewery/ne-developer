@@ -18,9 +18,9 @@ const SideDrawer = (props) => {
         <li>
           <Link to="/About-us">About Us</Link>
         </li>
-        <li>
+        {/* <li>
           <a href="/">Gallery</a>
-        </li>
+        </li> */}
         <li>
           <Link to="/contact-us">Contact Us</Link>
         </li>

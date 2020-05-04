@@ -1,6 +1,8 @@
 import React from "react";
 import "./form.css";
 import Box from "@material-ui/core/Box";
+// import ValidForm from "react-valid-form-component";
+
 export default class MyForm extends React.Component {
   constructor(props) {
     super(props);
@@ -15,28 +17,49 @@ export default class MyForm extends React.Component {
     return (
       <div className="form-contact">
         <form
-          class="form"
+          nosubmit
+          className="form"
           onSubmit={this.submitForm}
           action="https://formspree.io/xgelgnad"
           method="POST"
         >
-          <div class="form-control">
+          <div className="form-control">
             <label>Name</label>
-            <input type="text" name="name" placeholder="Name" />
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              required
+              minLength="3"
+              maxLength="50"
+            />
           </div>
-          <div class="form-control">
+          <div className="form-control">
             <label>Email</label>
-            <input type="email" name="email" placeholder="Email" />
+            <input type="email" name="email" placeholder="Email" required />
           </div>
-          <div class="form-control">
+          <div className="form-control">
             <label>Phone</label>
-            <input type="number" name="number" placeholder="Phone" />
+            <input
+              type="number"
+              name="number"
+              placeholder="Phone"
+              required
+              minLength="10"
+            />
           </div>
-          <div class="form-control">
+          <div className="form-control">
             <label>Message:</label>
-            <textarea type="text" name="message" placeholder="Your message" />
+            <textarea
+              type="text"
+              name="message"
+              placeholder="Your message"
+              required
+              minLength="3"
+              maxLength="450"
+            />
           </div>
-          <div class="form-control">
+          <div className="form-control">
             {status === "SUCCESS" ? (
               <p>
                 Thank you for your message <br /> We will get back to you

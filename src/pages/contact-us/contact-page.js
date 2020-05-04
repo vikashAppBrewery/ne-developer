@@ -25,9 +25,10 @@ const ContactPage = () => {
             data-aos-duration="2000"
           >
             <h1>Address</h1>
+            <h2>Main Branch:</h2>
             <h2>
               <img src={Map} alt="Address" />
-              Main office:
+              Sikkim
             </h2>
             <p>
               Opp. State Bank of Sikkim <br />

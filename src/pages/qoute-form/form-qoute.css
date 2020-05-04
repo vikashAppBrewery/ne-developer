@@ -12,6 +12,7 @@
   #modal-body-qoute__form {
     max-width: 80%;
     width: 90%;
+    max-height: auto;
     position: absolute;
     margin: 0 auto;
     background-color: white;

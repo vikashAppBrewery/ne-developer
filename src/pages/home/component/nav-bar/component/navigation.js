@@ -23,17 +23,17 @@ class Navbar extends Component {
               <li>
                 <a href="/">Home</a>
               </li>
-              <li class="dropdown">
-                <Link class="v-mid" to="/all-services">
+              <li className="dropdown">
+                <Link className="v-mid" to="/all-services">
                   Services
                 </Link>
               </li>
               <li>
                 <Link to="/about-us">About-us</Link>
               </li>
-              <li>
+              {/* <li>
                 <a href="/">Gallery</a>
-              </li>
+              </li> */}
 
               <li>
                 <Link to="/contact-us"> Contact-us </Link>

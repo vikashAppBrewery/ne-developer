@@ -3,7 +3,7 @@ import Container from "@material-ui/core/Container";
 import "./section-1-about-us.css";
 import Grid from "@material-ui/core/Grid";
 import ImageHeader from "../../../assets/section-about-header.svg";
-import AnimatedBtn from "../../home/component/button/button";
+
 import Box from "@material-ui/core/Box";
 import SimpleModal from "../../qoute-form/form-qoute";
 const SectionAboutUs1 = () => {

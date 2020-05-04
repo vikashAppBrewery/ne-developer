@@ -1,5 +1,6 @@
 import React from "react";
 import "./qoute-form.css";
+// import ValidForm from "react-valid-form-component";
 
 export default class QouteForm extends React.Component {
   constructor(props) {
@@ -18,17 +19,37 @@ export default class QouteForm extends React.Component {
         action="https://formspree.io/xvowpjlp"
         method="POST"
         id="qoute-form"
+        nosubmit
       >
         <label>Name:</label>
-        <input type="text" placeholder="full name" name="name" />
+        <input
+          type="text"
+          placeholder="full name"
+          name="name"
+          required
+          minLength="3"
+          maxLength="50"
+        />
         <label>Email:</label>
-        <input type="email" name="email" />
+        <input type="email" name="email" required />
         <label>Budget:</label>
-        <input type="text" name="budget" placeholder="what your budget is?" />
+        <input
+          type="text"
+          name="budget"
+          placeholder="what your budget is?"
+          required
+          minLength="3"
+        />
         <label>Phone Number:</label>
-        <input type="number" name="phone" />
+        <input type="number" name="phone" required minLength="10" />
         <label>Message:</label>
-        <textarea type="text" name="message" />
+        <textarea
+          type="text"
+          name="message"
+          required
+          minLength="3"
+          maxLength="450"
+        />
         {status === "SUCCESS" ? (
           <p>Thank you for response! We will get back to you shortly.</p>
         ) : (

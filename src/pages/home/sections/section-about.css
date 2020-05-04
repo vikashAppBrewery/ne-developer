@@ -9,6 +9,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .About-hero__content {
+    text-align: center;
+  }
+}
+
 .about-section__bg {
   height: 60vh;
   width: 100%;

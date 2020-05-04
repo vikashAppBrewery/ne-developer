@@ -26,7 +26,7 @@ const Section2Services = () => {
           data-aos="fade-up"
           data-aos-duration="2000"
         >
-          <ExpandableCard />
+          <ExpandableCard id="mobile-dev" />
         </Grid>
         <Grid
           item

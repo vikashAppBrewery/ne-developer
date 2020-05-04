@@ -72,7 +72,7 @@ class SectionHeader extends React.Component {
 
     return (
       <section className="home-hero">
-        <Container xs maxWidth="xl" id="container-header" justify="center">
+        <Container maxWidth="xl" id="container-header" justify="center">
           <Grid container spacing={0}>
             <Grid
               item
