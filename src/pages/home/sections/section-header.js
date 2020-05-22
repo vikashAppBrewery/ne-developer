@@ -5,6 +5,8 @@ import Grid from "@material-ui/core/Grid";
 import Hero from "../../../assets/hero-image.svg";
 import BtnAnimated from "../component/button/button";
 import Box from "@material-ui/core/Box";
+import AnimatedBtn from "../../home/component/button/button";
+import { Link } from "react-router-dom";
 
 import Typewriter from "typewriter-effect";
 
@@ -100,14 +102,19 @@ class SectionHeader extends React.Component {
                 </h1>
                 <span className="extra-text__header">
                   We deliver web and mobile app development services to global
-                  businesses since 2015, with 100% project delivery success.
-                  Hire the best programmers at affordable prices. Our
+                  businesses since 2017, with 100% project delivery success. Our
                   design-focused approach and project execution processes help
                   you to deliver the right solutions.
                 </span>
-                <Box display="flex" justifyContent="center" id="Animated__btn">
-                  <BtnAnimated title="Learn about us" />
+
+                <Box>
+                <Link to="about-us" className="btn-btn-all-services"  >
+                <AnimatedBtn title="Learn about us" />
+                </Link>
                 </Box>
+                
+                 
+
               </div>
             </Grid>
             <Grid item xs={12} sm={12} md={12} lg={6}>

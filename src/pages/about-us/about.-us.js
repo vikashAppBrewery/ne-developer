@@ -31,7 +31,7 @@ const PageAboutUs = () => {
         data-aos="fade-up"
         data-aos-duration="2000"
       >
-        Interested in working with us?
+        Interested in converting your idea into reality?
       </h1>
       <Box
         align="center"

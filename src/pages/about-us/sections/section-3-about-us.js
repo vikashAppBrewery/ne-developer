@@ -19,7 +19,7 @@ const Section3AboutUs = () => {
         data-aos-duration="2000"
       >
         Nedevelopers is an experienced team of coders & creatives that you’ll
-        love working with.
+        love working with, Here are the few supervisor's of dedicated teams.
       </p>
 
       <Grid container spacing={3} data-aos="fade-up" data-aos-duration="2000">
@@ -33,22 +33,8 @@ const Section3AboutUs = () => {
         >
           <Box justifyContent="center" text-align="center" align="center">
             <img src={Boy} alt="boy-icon" />
-            <p>vikash kumar</p>
-            <p>Web developer</p>
-          </Box>
-        </Grid>
-        <Grid
-          item
-          xs={12}
-          sm={6}
-          md={3}
-          lg={3}
-          className="section-about__us-image_icon"
-        >
-          <Box justifyContent="center" text-align="center" align="center">
-            <img src={Man} alt="boy-icon" />
-            <p>vikash kumar</p>
-            <p>Web developer</p>
+            <p>Vikash</p>
+           
           </Box>
         </Grid>
         <Grid
@@ -61,8 +47,36 @@ const Section3AboutUs = () => {
         >
           <Box justifyContent="center" text-align="center" align="center">
             <img src={Girl} alt="boy-icon" />
-            <p>vikash kumar</p>
-            <p>Web developer</p>
+            <p>Yashasvi</p>
+            
+          </Box>
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sm={6}
+          md={3}
+          lg={3}
+          className="section-about__us-image_icon"
+        >
+          <Box justifyContent="center" text-align="center" align="center">
+            <img src={Man} alt="boy-icon" />
+            <p>Akash Gupta </p>
+            
+          </Box>
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sm={6}
+          md={3}
+          lg={3}
+          className="section-about__us-image_icon"
+        >
+          <Box justifyContent="center" text-align="center" align="center">
+            <img src={Girl} alt="boy-icon" />
+            <p>Sonali</p>
+            
           </Box>
         </Grid>
         <Grid
@@ -75,12 +89,56 @@ const Section3AboutUs = () => {
         >
           <Box justifyContent="center" text-align="center" align="center">
             <img src={Man1} alt="boy-icon" />
-            <p>vikash kumar</p>
-            <p>Web developer</p>
+            <p>Gaurav</p>
+            
+          </Box>
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sm={6}
+          md={3}
+          lg={3}
+          className="section-about__us-image_icon"
+        >
+          <Box justifyContent="center" text-align="center" align="center">
+            <img src={Man} alt="boy-icon" />
+            <p>Ng.Chowba </p>
+            
+          </Box>
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sm={6}
+          md={3}
+          lg={3}
+          className="section-about__us-image_icon"
+        >
+          <Box justifyContent="center" text-align="center" align="center">
+            <img src={Man1} alt="boy-icon" />
+            <p>Kopil</p>
+            
+          </Box>
+        </Grid>
+        
+        <Grid
+          item
+          xs={12}
+          sm={6}
+          md={3}
+          lg={3}
+          className="section-about__us-image_icon"
+        >
+          <Box justifyContent="center" text-align="center" align="center">
+            <img src={Man} alt="boy-icon" />
+            <p>Abhishek </p>
+            
           </Box>
         </Grid>
       </Grid>
     </Container>
+    
   );
 };
 

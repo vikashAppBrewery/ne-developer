@@ -28,8 +28,8 @@ const Section2AboutUs = () => {
               For any business, customers are always at the center. Being a
               leading web and mobile app development company, our definition
               goes beyond our direct customers. We always start from where you
-              are with your ideas and we think from YOUR end customers'
-              perspectives, their pain areas and devise a solution that solves
+              are with your ideas and we think from your end, your
+              perspectives, your pain areas and devise a solution that solves
               core problems to benefit your business.
             </p>
           </Paper>
@@ -53,7 +53,7 @@ const Section2AboutUs = () => {
             <img src={Launch} alt="process" />
             <h2>Quality Delivered in Time</h2>
             <p>
-              With over two decades of experience in the offshore IT software
+              With our team having over a decade of experience in the offshore IT software
               development industry, we have a great set of internal frameworks
               with best-in-class infrastructure that enables us to deliver
               solutions with superior quality, at all times. All these years, we

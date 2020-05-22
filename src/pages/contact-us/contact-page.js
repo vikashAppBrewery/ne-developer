@@ -62,11 +62,7 @@ const ContactPage = () => {
             <h1>Customer Support</h1>
             <p>
               <img src={Phone} alt="Phone" />
-              +91-9789939112
-            </p>
-            <p>
-              <img src={Phone} alt="phone" />
-              +91-8610043765
+              +91-9894178970
             </p>
           </Grid>
           <Grid

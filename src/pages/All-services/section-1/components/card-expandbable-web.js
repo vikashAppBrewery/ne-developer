@@ -24,8 +24,7 @@ import NodeIcon from "../../../../assets/node.svg";
 import JavaIcon from "../../../../assets/java.svg";
 import PhpIcon from "../../../../assets/php.svg";
 import VueIcon from "../../../../assets/vuejs.svg";
-import AnimatedBtn from "../../../home/component/button/button";
-import Box from "@material-ui/core/Box";
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -183,9 +182,6 @@ export default function ExpandableCard2() {
                   <li>API/Webservices</li>
                 </ul>
               </div>
-              <Box align="center">
-                <AnimatedBtn title="Hire A Developer" />
-              </Box>
             </Grid>
           </Grid>
         </CardContent>

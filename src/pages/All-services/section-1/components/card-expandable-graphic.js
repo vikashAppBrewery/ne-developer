@@ -31,9 +31,6 @@ import Dimensions from "../../../../assets/services/Adobe-Dimension.svg";
 import Premiere from "../../../../assets/services/Adobe-Premiere.svg";
 import "./card-expandable-graphic.css";
 
-import AnimatedBtn from "../../../home/component/button/button";
-import Box from "@material-ui/core/Box";
-
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: "80%",
@@ -233,9 +230,7 @@ export default function ExpandableCard4() {
                 </Grid>
               </Grid>
 
-              <Box align="center" className="box-button-animated">
-                <AnimatedBtn title="Hire A Designer" />
-              </Box>
+              
             </Grid>
           </Grid>
         </CardContent>

@@ -5,7 +5,7 @@ import QouteForm from "./qoute-form";
 import "./form-qoute.css";
 
 function getModalStyle() {
-  const top = 50;
+  const top = 45;
   const left = 50;
 
   return {
@@ -13,6 +13,7 @@ function getModalStyle() {
     left: `${left}%`,
     transform: `translate(-${top}%, -${left}%)`,
     marginTop: "5em",
+    marginBotton: "2em",
   };
 }
 
@@ -50,6 +51,7 @@ export default function SimpleModal() {
       className={classes.paper}
       data-aos="fade-up"
       data-aos-duration="1000"
+      
     >
       <QouteForm />
     </div>

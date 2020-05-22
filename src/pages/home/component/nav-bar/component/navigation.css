@@ -20,6 +20,19 @@
   }
 }
 
+@media screen and ( orientation: landscape) {
+  .Navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    height: 60px;
+    z-index: 9999;
+  }
+}
+
+
 .NavbarNavigation {
   display: flex;
   align-items: center;

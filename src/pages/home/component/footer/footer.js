@@ -4,6 +4,7 @@ import Facebook from "../../../../assets/facebook.svg";
 import Twitter from "../../../../assets/twitter.svg";
 import Youtube from "../../../../assets/youtube.svg";
 import Instagram from "../../../../assets/instagram.svg";
+import Whatsapp from "../../../../assets/whatsapp.svg";
 // import Phone from "../../../../assets/phone.svg";
 // import Mail from "../../../../assets/mail.svg";
 // import Marker from "../../../../assets/map.svg";
@@ -57,6 +58,14 @@ const FooterNavigation = () => {
             target="_blank"
           >
             <img src={Instagram} alt="instagram-icon" />
+          </a>
+
+          <a
+            href="https://wa.me/919894178970"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img src={Whatsapp} alt="whatsapp-icon" />
           </a>
         </div>
       </div>

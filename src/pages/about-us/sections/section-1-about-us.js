@@ -19,9 +19,9 @@ const SectionAboutUs1 = () => {
           data-aos="fade-up"
           data-aos-duration="2000"
         >
-          <h1>Hi, we’re ne developers</h1>
+          <h1>Hi! we’re NE Developers</h1>
           <p>
-            Established in Gangtok sikkim, Ne developers has been designing &
+            Established in Gangtok, Sikkim, Ne developers has been designing &
             coding digital things since 2017.
           </p>
           <p>

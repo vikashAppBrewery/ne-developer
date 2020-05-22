@@ -20,8 +20,8 @@ import FlutterIcon from "../../../../assets/flutter.svg";
 import IonicIcon from "../../../../assets/ionic.svg";
 import SwiftIcon from "../../../../assets/Swift.svg";
 import KotlinIcon from "../../../../assets/kotlin.svg";
-import AnimatedBtn from "../../../home/component/button/button";
-import Box from "@material-ui/core/Box";
+
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -158,9 +158,7 @@ export default function ExpandableCard() {
                   <li>Flutter App Development</li>
                 </ul>
               </div>
-              <Box align="center">
-                <AnimatedBtn title="Hire A Developer" />
-              </Box>
+              
             </Grid>
           </Grid>
         </CardContent>

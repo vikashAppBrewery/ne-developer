@@ -32,18 +32,18 @@ const SectionAbout = () => {
             <div className="About-hero__content">
               <h1>About us</h1>
               <span>
-                NE DEVELOPER is not an entity, it’s a family that represents
-                togetherness for over two decades of a successful journey. For
-                NE DEVELOPER, the definition of success is to transcend
+                NE DEVELOPERS is not an entity, it’s a family that represents
+                togetherness for a successful journey. For
+                NE DEVELOPERS, the definition of success is to transcend
                 innovative ideas of people to reality with the help of our tech
                 expertise, this is what we, as a Team, want to be remembered
-                for! Our vision has led NE DEVELOPER to become a top IT company
+                for! Our vision has led NE DEVELOPERS to become a top IT company
                 in India & USA for delivering various industry-led mobility
                 solutions. The goal is to empower clients and businesses by
                 creating new possibilities leveraging the technologies of today
                 and tomorrow with the utmost quality, satisfaction, and
-                transparency <br />
-                <a href="/">find out more</a>
+                transparency. <br />
+                
               </span>
             </div>
           </Grid>

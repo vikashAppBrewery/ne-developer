@@ -19,8 +19,7 @@ import ReactIcon from "../../../../assets/services/Sketch.svg";
 import FlutterIcon from "../../../../assets/services/photoshop.svg";
 import IonicIcon from "../../../../assets/services/illustrator.svg";
 
-import AnimatedBtn from "../../../home/component/button/button";
-import Box from "@material-ui/core/Box";
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -144,9 +143,7 @@ export default function ExpandableCard3() {
                   <li>UI Design</li>
                 </ul>
               </div>
-              <Box align="center">
-                <AnimatedBtn title="Hire A Designer" />
-              </Box>
+              
             </Grid>
           </Grid>
         </CardContent>
