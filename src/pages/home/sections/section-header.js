@@ -3,7 +3,6 @@ import "./section-header.css";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import Hero from "../../../assets/hero-image.svg";
-import BtnAnimated from "../component/button/button";
 import Box from "@material-ui/core/Box";
 import AnimatedBtn from "../../home/component/button/button";
 import { Link } from "react-router-dom";

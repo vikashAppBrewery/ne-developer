@@ -10,6 +10,7 @@
   z-index: 200;
   transform: translateX(-100%);
   transition: transform 0.3s ease;
+  overflow: scroll;
 }
 .SideDrawer.open {
   transform: translateX(0) !important;
@@ -19,13 +20,19 @@
   height: 100%;
   justify-content: top;
   padding-top: 100px;
-
   display: flex;
   flex-direction: column;
 }
+
+
+
+
 .SideDrawer ul li {
   margin: 2.5rem 0;
 }
+
+
+
 .SideDrawer ul li a {
   color: #521751;
   text-decoration: none;
